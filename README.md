@@ -1,4 +1,4 @@
-<img src="https://github.com/latenitefilms/RecallToolbox/raw/main/docs/static/logo.png" align="right" width="15%" height="15%" />
+<img src="https://github.com/latenitefilms/MetaburnerPro/raw/main/docs/static/logo.png" align="right" width="15%" height="15%" />
 
 # Metaburner Pro
 

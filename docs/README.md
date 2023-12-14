@@ -1,3 +1,5 @@
+<img class="rightLogo" src="https://github.com/latenitefilms/MetaburnerPro/raw/main/docs/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
+
 # Metaburner Pro
 
 Metaburner Pro is a Metadata Generator for Final Cut Pro.
