@@ -1,3 +1,10 @@
+<style>
+    @media (max-width: 959px) {
+        img.rightLogo {
+            display: none !important;
+        }
+    }
+</style>
 <img class="rightLogo" src="https://github.com/latenitefilms/MetaburnerPro/raw/main/docs/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # Metaburner Pro
