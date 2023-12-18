@@ -27,6 +27,8 @@ Got ideas or questions? Post them on our [Discussions page](https://github.com/l
 
 Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms/metaburnerpro/issues).
 
+<!--
 > [:icon-desktop-download: **Click here to buy on the Mac App Store**](/buy/)
+-->
 
 ![](/static/metaburner-pro-screenshot.jpeg)
