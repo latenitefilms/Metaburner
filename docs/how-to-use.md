@@ -12,9 +12,11 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Limitations
 
-#### Metaburner Pro v1.0.0 (Build 3)
+#### Metaburner Pro v1.0.0 (Build 5)
 
-- There's currently no **Clip** Content Sources. These will be added in future betas.
+**18th December 2023**
+
+- Currently only the **Custom Text** and **Project** Content Source actually do anything. **Primary Storyline**, **Lane 1**, **Lane 2** and **Lane 3** currently just display the text "Under Construction".
 - The **Control** buttons currently don't do anything.
 - The **Preset** buttons currently don't do anything.
 
@@ -68,7 +70,7 @@ You can then control it via the Inspector:
 
 ![](static/inspector.png)
 
-There are 25 customisable text layers, which you can customise however you want.
+There are **25 customisable text layers**, which you can customise however you want.
 
 There are **Global Settings** which apply to all Text Layers:
 
@@ -78,20 +80,46 @@ You can override these Global Settings on an individual text layer by deselectin
 
 ![](static/text-layer.png)
 
-The **Custom Field** allows you to input specific names related to the **Content Source** (for example, providing a custom metadata field).
+The **Content Source** dropdown is where you select where you want to get your metadata from.
 
-When the **Content Source** is set to **Custom Text**, then the **Custom Text** field is used as the main text source for that text layer.
+![](static/content-source.png)
 
-You can add a **Prefix** and a **Suffix** to all text fields.
+If you select **Custom Text** it will use the Custom Text textbox in the Inspector.
+
+If you select **Project**, it will get the metadata from the project/timeline.
+
+If you select **Primary Storyline**, it will get the metadata from the primary storyline, etc.
+
+If you've selected something other than **Custom Text** you must then select a **Content Field**.
+
+![](static/content-field.png)
+
+For example, if you have **Project** selected in the **Content Source**, and **Name** selected in the **Content Field**, then it will display the name of your **Project** (after you drop a Final Cut Pro Project into the drop zone).
+
+You can add a **Prefix** and a **Suffix** to all text fields, regardless of the **Content Source** and **Content Field**.
 
 So that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the **Browser** to the drop zone at the top of the Inspector:
 
 ![](static/drop-zone.png)
 
+What metadata Final Cut Pro provides when dragging a project/timeline, depends on what **Metadata View** you currently have selected in the **Info Inspector**:
+
+![](static/metadata-view.png)
+
 Final Cut Pro can be a bit temperamental when dragging things from the Browser to the Inspector over the Viewer, so you might have to drag it slowly/carefully for it to work. Sometimes the Inspector will change views, which breaks the workflow, so simply try again.
 
-Once successful, you'll get a message like this:
+We have also noticed that sometimes Final Cut Pro can crash when exporting FCPXMLs, as documented [here](https://github.com/CommandPost/FCPCafe/issues/307). We hope that Apple will address this in a future Final Cut Pro update.
+
+You will see a progress alert whilst Metaburner Pro is processing:
+
+![](static/loading.png)
+
+You can **Cancel** it if it's taking a very long time and try again.
+
+Once you've successfully imported a project/timeline, you'll get a message like this:
 
 ![](static/import-complete.png)
 
 Once done, Metaburner Pro has access to all the metadata within the FCPXML to populate all the Content Sources.
+
+If you make changes to the project/timeline, you'll need to drag the project back again to update the contents of Metaburner Pro.
