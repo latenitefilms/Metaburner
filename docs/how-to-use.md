@@ -12,11 +12,12 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Limitations
 
-#### Metaburner Pro v1.0.0 (Build 5)
+#### Metaburner Pro v1.0.0 (Build 6)
 
-**18th December 2023**
+**19th December 2023**
 
-- Currently only the **Custom Text** and **Project** Content Source actually do anything. **Primary Storyline**, **Lane 1**, **Lane 2** and **Lane 3** currently just display the text "Under Construction".
+- The **Primary Storyline** Content Source will only work with `Asset Clips` currently (i.e. not Multicam, Synchronised Clips, Titles, Compound Clips, etc.).
+- **Lane 1**, **Lane 2** and **Lane 3** Content Sources currently just display the text "TBC".
 - The **Control** buttons currently don't do anything.
 - The **Preset** buttons currently don't do anything.
 
