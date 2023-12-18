@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.756178608195">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.756211443458">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.756178608195" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.756211443458" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.756178608195" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.756211443458" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.756178608195" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.756211443458" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -300,14 +300,15 @@
         <span>Known Issues &amp; Limitations</span>
     </h3>
 </doc-anchor-target>
-<doc-anchor-target id="metaburner-pro-v100-build-3">
+<doc-anchor-target id="metaburner-pro-v100-build-5">
     <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#metaburner-pro-v100-build-3">#</doc-anchor-trigger>
-        <span>Metaburner Pro v1.0.0 (Build 3)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#metaburner-pro-v100-build-5">#</doc-anchor-trigger>
+        <span>Metaburner Pro v1.0.0 (Build 5)</span>
     </h4>
 </doc-anchor-target>
+<p><strong>18th December 2023</strong></p>
 <ul>
-<li>There&#x27;s currently no <strong>Clip</strong> Content Sources. These will be added in future betas.</li>
+<li>Currently only the <strong>Custom Text</strong> and <strong>Project</strong> Content Source actually do anything. <strong>Primary Storyline</strong>, <strong>Lane 1</strong>, <strong>Lane 2</strong> and <strong>Lane 3</strong> currently just display the text &quot;Under Construction&quot;.</li>
 <li>The <strong>Control</strong> buttons currently don&#x27;t do anything.</li>
 <li>The <strong>Preset</strong> buttons currently don&#x27;t do anything.</li>
 </ul>
@@ -383,7 +384,7 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>There are 25 customisable text layers, which you can customise however you want.</p>
+<p>There are <strong>25 customisable text layers</strong>, which you can customise however you want.</p>
 <p>There are <strong>Global Settings</strong> which apply to all Text Layers:</p>
 <p><figure class="content-center">
     <img src="../static/global-settings.png" alt="">
@@ -396,23 +397,52 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>The <strong>Custom Field</strong> allows you to input specific names related to the <strong>Content Source</strong> (for example, providing a custom metadata field).</p>
-<p>When the <strong>Content Source</strong> is set to <strong>Custom Text</strong>, then the <strong>Custom Text</strong> field is used as the main text source for that text layer.</p>
-<p>You can add a <strong>Prefix</strong> and a <strong>Suffix</strong> to all text fields.</p>
+<p>The <strong>Content Source</strong> dropdown is where you select where you want to get your metadata from.</p>
+<p><figure class="content-center">
+    <img src="../static/content-source.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>If you select <strong>Custom Text</strong> it will use the Custom Text textbox in the Inspector.</p>
+<p>If you select <strong>Project</strong>, it will get the metadata from the project/timeline.</p>
+<p>If you select <strong>Primary Storyline</strong>, it will get the metadata from the primary storyline, etc.</p>
+<p>If you&#x27;ve selected something other than <strong>Custom Text</strong> you must then select a <strong>Content Field</strong>.</p>
+<p><figure class="content-center">
+    <img src="../static/content-field.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>For example, if you have <strong>Project</strong> selected in the <strong>Content Source</strong>, and <strong>Name</strong> selected in the <strong>Content Field</strong>, then it will display the name of your <strong>Project</strong> (after you drop a Final Cut Pro Project into the drop zone).</p>
+<p>You can add a <strong>Prefix</strong> and a <strong>Suffix</strong> to all text fields, regardless of the <strong>Content Source</strong> and <strong>Content Field</strong>.</p>
 <p>So that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the <strong>Browser</strong> to the drop zone at the top of the Inspector:</p>
 <p><figure class="content-center">
     <img src="../static/drop-zone.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
+<p>What metadata Final Cut Pro provides when dragging a project/timeline, depends on what <strong>Metadata View</strong> you currently have selected in the <strong>Info Inspector</strong>:</p>
+<p><figure class="content-center">
+    <img src="../static/metadata-view.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <p>Final Cut Pro can be a bit temperamental when dragging things from the Browser to the Inspector over the Viewer, so you might have to drag it slowly/carefully for it to work. Sometimes the Inspector will change views, which breaks the workflow, so simply try again.</p>
-<p>Once successful, you&#x27;ll get a message like this:</p>
+<p>We have also noticed that sometimes Final Cut Pro can crash when exporting FCPXMLs, as documented <a href="https://github.com/CommandPost/FCPCafe/issues/307">here</a>. We hope that Apple will address this in a future Final Cut Pro update.</p>
+<p>You will see a progress alert whilst Metaburner Pro is processing:</p>
+<p><figure class="content-center">
+    <img src="../static/loading.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can <strong>Cancel</strong> it if it&#x27;s taking a very long time and try again.</p>
+<p>Once you&#x27;ve successfully imported a project/timeline, you&#x27;ll get a message like this:</p>
 <p><figure class="content-center">
     <img src="../static/import-complete.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Once done, Metaburner Pro has access to all the metadata within the FCPXML to populate all the Content Sources.</p>
+<p>If you make changes to the project/timeline, you&#x27;ll need to drag the project back again to update the contents of Metaburner Pro.</p>
 
                                 
                                 <!-- Required only on API pages -->
