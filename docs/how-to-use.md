@@ -17,6 +17,7 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 **19th December 2023**
 
 - The **Primary Storyline** Content Source will only work with `Asset Clips` currently (i.e. not Multicam, Synchronised Clips, Titles, Compound Clips, etc.).
+- When using the **Primary Storyline** Content Source, sometimes the first frame of an `Asset Clip` will display no date. This is a bug I'm trying to hunt down.
 - **Lane 1**, **Lane 2** and **Lane 3** Content Sources currently just display the text "TBC".
 - The **Control** buttons currently don't do anything.
 - The **Preset** buttons currently don't do anything.
