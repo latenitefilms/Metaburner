@@ -14,14 +14,12 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Limitations
 
-#### Metaburner Pro v1.0.0 (Build 9)
+#### Metaburner Pro v1.0.0 (Build 10)
 
-**20th December 2023**
+**23rd December 2023**
 
-- When using the **Primary Storyline** Content Source, sometimes the first frame of an [`asset-clip`'s](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip) will display no date. I currently have no idea why.
-- We've temporarily removed **Lane 1**, **Lane 2** and **Lane 3** Content Sources, as they're not hooked up to anything. They will be added back in a future beta.
-- The **Control** buttons currently don't do anything.
-- The **Preset** buttons currently don't do anything.
+- When using the **Primary Storyline** Content Source, sometimes the first frame of an [`asset-clip`'s](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip) will display no data. This is a bug.
+- The **Preset** buttons currently don't do anything. This will be added in a future beta.
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
@@ -36,6 +34,8 @@ You can find the error log here:
 ```
 ~/Library/Containers/com.latenitefilms.MetaburnerProRenderer/Data/Library/Application Support/FxPlug.log
 ```
+
+You can also press the **Reveal Log Files** button in the **Controls** section of the Inspector.
 
 You can find any crash logs here:
 
