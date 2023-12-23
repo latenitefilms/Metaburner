@@ -14,7 +14,7 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Limitations
 
-#### Metaburner Pro v1.0.0 (Build 10)
+#### Metaburner Pro v1.0.0 (Build 11)
 
 **23rd December 2023**
 
