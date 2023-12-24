@@ -2,7 +2,7 @@
 
 Metaburner Pro is currently in **early development**.
 
-If you're interested in helping with development, you can sign up to **TestFlight** [here](https://testflight.apple.com/join/dw7S2veN).
+If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/dw7S2veN).
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
@@ -14,9 +14,9 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Limitations
 
-#### Metaburner Pro v1.0.0 (Build 11)
+#### Metaburner Pro v1.0.0 (Build 14)
 
-**23rd December 2023**
+**25th December 2023**
 
 - When using the **Primary Storyline** Content Source, sometimes the first frame of an [`asset-clip`'s](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip) will display no data. This is a bug.
 - The **Preset** buttons currently don't do anything. This will be added in a future beta.
@@ -42,6 +42,14 @@ You can find any crash logs here:
 ```
 ~/Library/Logs/DiagnosticReports
 ```
+
+The crash logs will have file names like `Metaburner Pro Renderer-2023-12-24-103301.ips`. They might also be in the `Retired` sub-folder (these are reports that have already been posted to Apple).
+
+You can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
+
+![](static/finder-library.png)
+
+You can also copy the above paths, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup.
 
 ---
 
@@ -78,6 +86,8 @@ After installing the Motion Template, you can find the Metaburner Pro Title at t
 ---
 
 ### Title Inspector
+
+_**As Metaburner Pro is iterating rapidly, some of the below documentation may be out-of-date as we quickly push out new beta's.**_
 
 Simply add the Metaburner Pro Title to the top of your timeline as an adjustment layer.
 

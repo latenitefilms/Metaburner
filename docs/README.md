@@ -13,7 +13,7 @@
 
 > Metaburner Pro is currently in **early development**.
 >
-> If you're interested in helping with development, you can sign up to **TestFlight** [here](https://testflight.apple.com/join/dw7S2veN).
+> If you're interested in helping with development, you can learn more [here](/how-to-use/).
 
 You can access it via a **Title** in the Titles sidebar.
 
@@ -22,6 +22,8 @@ Metaburner Pro gives you **25 text layers** that you can populate with whatever 
 You can even stack multiple Metaburner Pro Titles on top of each other for UNLIMITED titles!
 
 You can import your Final Cut Pro project/timeline back into the Metaburner Pro Title via a drop zone, so Metaburner Pro has full access to everything that's in the FCPXML.
+
+There's also a Lua scripting environment built-in, so you can even "code" your own text!
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
