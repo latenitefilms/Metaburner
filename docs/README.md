@@ -11,7 +11,7 @@
 
 **Metaburner Pro** is a Metadata Generator for Final Cut Pro.
 
-> Metaburner Pro is currently in **early development**.
+> Metaburner Pro is currently being publicly beta tested on Apple's TestFlight.
 >
 > If you're interested in helping with development, you can learn more [here](/how-to-use/).
 
@@ -19,18 +19,16 @@ You can access it via a **Title** in the Titles sidebar.
 
 Metaburner Pro gives you **25 text layers** that you can populate with whatever metadata you want.
 
-You can even stack multiple Metaburner Pro Titles on top of each other for UNLIMITED titles!
+You can even stack multiple Metaburner Pro Titles on top of each other for **unlimited** titles!
 
-You can import your Final Cut Pro project/timeline back into the Metaburner Pro Title via a drop zone, so Metaburner Pro has full access to everything that's in the FCPXML.
+To begin, simply drag your Final Cut Pro Project from the Browser into the Metaburner Pro Title Inspector via a drop zone, and then Metaburner Pro has full access to everything that's in the FCPXML.
 
-There's also a Lua scripting environment built-in, so you can even "code" your own text!
+There's also a **Lua scripting environment** built-in, so you can even "code" your own text for unlimited possibilities.
 
-Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
+You can even share Lua variables between multiple Metaburner Pro titles for some crazy possibilities!
 
-Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms/metaburnerpro/issues).
+![](/static/metaburner-pro-screenshot.jpeg)
 
 <!--
 > [:icon-desktop-download: **Click here to buy on the Mac App Store**](/buy/)
 -->
-
-![](/static/metaburner-pro-screenshot.jpeg)
