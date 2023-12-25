@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.756810184567">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.756820425630">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.756810184567" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.756820425630" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.756810184567" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.756820425630" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.756810184567" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.756820425630" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -299,16 +299,18 @@
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="known-issues--limitations">
+<doc-anchor-target id="known-issues--bugs">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#known-issues--limitations">#</doc-anchor-trigger>
-        <span>Known Issues &amp; Limitations</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#known-issues--bugs">#</doc-anchor-trigger>
+        <span>Known Issues &amp; Bugs</span>
     </h3>
 </doc-anchor-target>
-<p><strong>Metaburner Pro v1.0.0 (Build 15) - 25th December 2023</strong></p>
+<p><strong>Metaburner Pro v1.0.0 (Build 16) - 25th December 2023</strong></p>
 <ul>
-<li>When using the <strong>Primary Storyline</strong> Content Source, sometimes the first frame of an <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip"><code v-pre>asset-clip</code>&#x27;s</a> will display no data. This is a bug and will be fixed in a future TestFlight release.</li>
+<li>When using the <strong>Primary Storyline</strong> Content Source, sometimes the first frame of a clip will display no data. This is a bug and will be fixed in a future TestFlight release.</li>
 <li>The <strong>Preset</strong> buttons currently don&#x27;t do anything. This will be added in a future TestFlight release.</li>
+<li>The <strong>Settings</strong> button in the <strong>Controls</strong> section currently doesn&#x27;t do anything. This will be added in a future TestFlight release.</li>
+<li>Some metadata is not &quot;hooked up&quot; yet, so may say &quot;not yet implemented&quot;.</li>
 </ul>
 <p>Got ideas or questions? Post them on our <a href="https://github.com/latenitefilms/metaburnerpro/discussions">Discussions page</a>!</p>
 <p>Found a bug? Post about it on our <a href="https://github.com/latenitefilms/metaburnerpro/issues">Issues page</a>.</p>
@@ -320,7 +322,7 @@
         <span>Error Logs</span>
     </h3>
 </doc-anchor-target>
-<p>You can press the <strong>Reveal Log Files</strong> button in the <strong>Controls</strong> section of the Inspector to access the <code v-pre>FxPlug.log</code> file in Finder.</p>
+<p>You can press the <strong>Reveal Log Files</strong> button in the <strong>Controls</strong> section of the Inspector to access the <code v-pre>FxPlug.log</code> file in Finder:</p>
 <p><figure class="content-center">
     <img src="../static/reveal-log-files.png" alt="">
     <figcaption class="caption"></figcaption>
@@ -330,12 +332,18 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">~/Library/Containers/com.latenitefilms.MetaburnerProRenderer/Data/Library/Application Support/FxPlug.log</code></pre>
 </doc-codeblock></div>
-<p>You can find any crash logs here:</p>
+<p>You can press the <strong>Reveal Crash Logs</strong> button in the <strong>Controls</strong> section of the Inspector to access the <code v-pre>DiagnosticReports</code> folder in Finder.</p>
+<p><figure class="content-center">
+    <img src="../static/reveal-log-files.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The crash logs are located here:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">~/Library/Logs/DiagnosticReports</code></pre>
 </doc-codeblock></div>
 <p>The crash logs will have file names like <code v-pre>Metaburner Pro Renderer-2023-12-24-103301.ips</code>. They might also be in the <code v-pre>Retired</code> sub-folder (these are reports that have already been posted to Apple).</p>
-<p>You can access your User Library, by clicking on your <strong>Desktop</strong>, then holding down <strong>OPTION</strong> as you click the <strong>Go</strong> menu item in Finder. A <strong>Library</strong> option will appear:</p>
+<p>Alternatively, you can access your User Library, by clicking on your <strong>Desktop</strong>, then holding down <strong>OPTION</strong> as you click the <strong>Go</strong> menu item in Finder. A <strong>Library</strong> option will appear:</p>
 <p><figure class="content-center">
     <img src="../static/finder-library.png" alt="">
     <figcaption class="caption"></figcaption>
