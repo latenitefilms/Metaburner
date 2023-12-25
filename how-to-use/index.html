@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.756774783480">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.756808678850">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.756774783480" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.756808678850" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.756774783480" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.756808678850" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.756774783480" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.756808678850" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -305,19 +305,14 @@
         <span>Known Issues &amp; Limitations</span>
     </h3>
 </doc-anchor-target>
-<doc-anchor-target id="metaburner-pro-v100-build-14">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#metaburner-pro-v100-build-14">#</doc-anchor-trigger>
-        <span>Metaburner Pro v1.0.0 (Build 14)</span>
-    </h4>
-</doc-anchor-target>
-<p><strong>25th December 2023</strong></p>
+<p><strong>Metaburner Pro v1.0.0 (Build 15) - 25th December 2023</strong></p>
 <ul>
-<li>When using the <strong>Primary Storyline</strong> Content Source, sometimes the first frame of an <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip"><code v-pre>asset-clip</code>&#x27;s</a> will display no data. This is a bug.</li>
-<li>The <strong>Preset</strong> buttons currently don&#x27;t do anything. This will be added in a future beta.</li>
+<li>When using the <strong>Primary Storyline</strong> Content Source, sometimes the first frame of an <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip"><code v-pre>asset-clip</code>&#x27;s</a> will display no data. This is a bug and will be fixed in a future TestFlight release.</li>
+<li>The <strong>Preset</strong> buttons currently don&#x27;t do anything. This will be added in a future TestFlight release.</li>
 </ul>
 <p>Got ideas or questions? Post them on our <a href="https://github.com/latenitefilms/metaburnerpro/discussions">Discussions page</a>!</p>
 <p>Found a bug? Post about it on our <a href="https://github.com/latenitefilms/metaburnerpro/issues">Issues page</a>.</p>
+<p>You can find the full release notes <a href="../release-notes/">here</a>.</p>
 <hr>
 <doc-anchor-target id="error-logs">
     <h3>
@@ -325,11 +320,16 @@
         <span>Error Logs</span>
     </h3>
 </doc-anchor-target>
-<p>You can find the error log here:</p>
+<p>You can press the <strong>Reveal Log Files</strong> button in the <strong>Controls</strong> section of the Inspector to access the <code v-pre>FxPlug.log</code> file in Finder.</p>
+<p><figure class="content-center">
+    <img src="../static/reveal-log-files.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The log file is located here:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">~/Library/Containers/com.latenitefilms.MetaburnerProRenderer/Data/Library/Application Support/FxPlug.log</code></pre>
 </doc-codeblock></div>
-<p>You can also press the <strong>Reveal Log Files</strong> button in the <strong>Controls</strong> section of the Inspector.</p>
 <p>You can find any crash logs here:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">~/Library/Logs/DiagnosticReports</code></pre>
@@ -399,7 +399,6 @@
         <span>Title Inspector</span>
     </h3>
 </doc-anchor-target>
-<p><em><strong>As Metaburner Pro is iterating rapidly, some of the below documentation may be out-of-date as we quickly push out new beta&#x27;s.</strong></em></p>
 <p>Simply add the Metaburner Pro Title to the top of your timeline as an adjustment layer.</p>
 <p>It should start at the very start of your timeline.</p>
 <p><figure class="content-center">
@@ -443,7 +442,13 @@
 </p>
 <p>For example, if you have <strong>Project</strong> selected in the <strong>Content Source</strong>, and <strong>Name</strong> selected in the <strong>Content Field</strong>, then it will display the name of your <strong>Project</strong> (after you drop a Final Cut Pro Project into the drop zone).</p>
 <p>You can add a <strong>Prefix</strong> and a <strong>Suffix</strong> to all text fields, regardless of the <strong>Content Source</strong> and <strong>Content Field</strong>.</p>
-<p>So that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the <strong>Browser</strong> to the drop zone at the top of the Inspector:</p>
+<p>When you first add the Metaburner Pro Title, it will display this image in your Viewer:</p>
+<p><figure class="content-center">
+    <img src="../static/no-project-loaded.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>As the image explains, so that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the <strong>Browser</strong> to the drop zone at the top of the Inspector:</p>
 <p><figure class="content-center">
     <img src="../static/drop-zone.png" alt="">
     <figcaption class="caption"></figcaption>
@@ -455,23 +460,34 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
+<blockquote>
 <p>Final Cut Pro can be a bit temperamental when dragging things from the Browser to the Inspector over the Viewer, so you might have to drag it slowly/carefully for it to work. Sometimes the Inspector will change views, which breaks the workflow, so simply try again.</p>
 <p>We have also noticed that sometimes Final Cut Pro can crash when exporting FCPXMLs, as documented <a href="https://github.com/CommandPost/FCPCafe/issues/307">here</a>. We hope that Apple will address this in a future Final Cut Pro update.</p>
-<p>You will see a progress alert whilst Metaburner Pro is processing:</p>
+</blockquote>
+<p>After dropping a FCPXML, the status text will change to <strong>Analysing Project</strong>:</p>
 <p><figure class="content-center">
-    <img src="../static/loading.png" alt="">
+    <img src="../static/loading-fcpxml.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>You can <strong>Cancel</strong> it if it&#x27;s taking a very long time and try again.</p>
-<p>Once you&#x27;ve successfully imported a project/timeline, you&#x27;ll get a message like this:</p>
+<p>After a short time, if successful, the status should change to <strong>Project Loaded</strong>:</p>
 <p><figure class="content-center">
-    <img src="../static/import-complete.png" alt="">
+    <img src="../static/project-loaded.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
+<blockquote>
+<p>Final Cut Pro can be a bit temperamental in terms of updating the status, so you may need to click away from the Metaburner Pro Title and then go back to it for the text to update.</p>
+</blockquote>
 <p>Once done, Metaburner Pro has access to all the metadata within the FCPXML to populate all the Content Sources.</p>
 <p>If you make changes to the project/timeline, you&#x27;ll need to drag the project back again to update the contents of Metaburner Pro.</p>
+<p>If Metaburner Pro was unable to import the FCPXML, you&#x27;ll get an error status, which you can hover over with your mouse to get more detail:</p>
+<p><figure class="content-center">
+    <img src="../static/error-in-inspector.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>If you do run into an error, it&#x27;s most likely a bug in Metaburner Pro, so please share your Error Log and FCPXML on GitHub <a href="https://github.com/latenitefilms/metaburnerpro/issues">here</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -491,10 +507,10 @@
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../support/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../lua-scripting/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Support</span>
+                                                <span class="block mt-1">Lua Scripting</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
