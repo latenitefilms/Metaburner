@@ -12,12 +12,14 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ---
 
-### Known Issues & Limitations
+### Known Issues & Bugs
 
-**Metaburner Pro v1.0.0 (Build 15) - 25th December 2023**
+**Metaburner Pro v1.0.0 (Build 16) - 25th December 2023**
 
-- When using the **Primary Storyline** Content Source, sometimes the first frame of an [`asset-clip`'s](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip) will display no data. This is a bug and will be fixed in a future TestFlight release.
+- When using the **Primary Storyline** Content Source, sometimes the first frame of a clip will display no data. This is a bug and will be fixed in a future TestFlight release.
 - The **Preset** buttons currently don't do anything. This will be added in a future TestFlight release.
+- The **Settings** button in the **Controls** section currently doesn't do anything. This will be added in a future TestFlight release.
+- Some metadata is not "hooked up" yet, so may say "not yet implemented".
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
@@ -29,7 +31,7 @@ You can find the full release notes [here](/release-notes/).
 
 ### Error Logs
 
-You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the `FxPlug.log` file in Finder.
+You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the `FxPlug.log` file in Finder:
 
 ![](static/reveal-log-files.png)
 
@@ -39,7 +41,11 @@ The log file is located here:
 ~/Library/Containers/com.latenitefilms.MetaburnerProRenderer/Data/Library/Application Support/FxPlug.log
 ```
 
-You can find any crash logs here:
+You can press the **Reveal Crash Logs** button in the **Controls** section of the Inspector to access the `DiagnosticReports` folder in Finder.
+
+![](static/reveal-log-files.png)
+
+The crash logs are located here:
 
 ```
 ~/Library/Logs/DiagnosticReports
@@ -47,7 +53,7 @@ You can find any crash logs here:
 
 The crash logs will have file names like `Metaburner Pro Renderer-2023-12-24-103301.ips`. They might also be in the `Retired` sub-folder (these are reports that have already been posted to Apple).
 
-You can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
+Alternatively, you can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
 
 ![](static/finder-library.png)
 

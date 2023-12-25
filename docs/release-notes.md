@@ -1,6 +1,21 @@
 # Release Notes
 
-### 1.0.0 (14)
+### 1.0.0 (16)
+
+**🎉 Released:**
+- 25th December 2023
+
+🔨 **Improvements:**
+- We now have a single shared Lua virtual machine, which means you can pass global variables between different Metaburner Pro Titles.
+- Improved how we update the status in the Final Cut Pro Inspector. It should now update more reliably and faster.
+- Updated credits in the main Wrapper application.
+- Added a **Reveal Crash Logs** button in the **Controls** section of the Titles Inspector.
+- Various under-the-hood improvements.
+- Updated Motion Template.
+
+---
+
+### 1.0.0 (15)
 
 **🎉 Released:**
 - 24th December 2023
