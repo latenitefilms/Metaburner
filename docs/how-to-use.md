@@ -14,28 +14,30 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Limitations
 
-#### Metaburner Pro v1.0.0 (Build 14)
+**Metaburner Pro v1.0.0 (Build 15) - 25th December 2023**
 
-**25th December 2023**
-
-- When using the **Primary Storyline** Content Source, sometimes the first frame of an [`asset-clip`'s](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip) will display no data. This is a bug.
-- The **Preset** buttons currently don't do anything. This will be added in a future beta.
+- When using the **Primary Storyline** Content Source, sometimes the first frame of an [`asset-clip`'s](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/story_elements/asset-clip) will display no data. This is a bug and will be fixed in a future TestFlight release.
+- The **Preset** buttons currently don't do anything. This will be added in a future TestFlight release.
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
 Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms/metaburnerpro/issues).
 
+You can find the full release notes [here](/release-notes/).
+
 ---
 
 ### Error Logs
 
-You can find the error log here:
+You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the `FxPlug.log` file in Finder.
+
+![](static/reveal-log-files.png)
+
+The log file is located here:
 
 ```
 ~/Library/Containers/com.latenitefilms.MetaburnerProRenderer/Data/Library/Application Support/FxPlug.log
 ```
-
-You can also press the **Reveal Log Files** button in the **Controls** section of the Inspector.
 
 You can find any crash logs here:
 
@@ -87,8 +89,6 @@ After installing the Motion Template, you can find the Metaburner Pro Title at t
 
 ### Title Inspector
 
-_**As Metaburner Pro is iterating rapidly, some of the below documentation may be out-of-date as we quickly push out new beta's.**_
-
 Simply add the Metaburner Pro Title to the top of your timeline as an adjustment layer.
 
 It should start at the very start of your timeline.
@@ -127,7 +127,11 @@ For example, if you have **Project** selected in the **Content Source**, and **N
 
 You can add a **Prefix** and a **Suffix** to all text fields, regardless of the **Content Source** and **Content Field**.
 
-So that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the **Browser** to the drop zone at the top of the Inspector:
+When you first add the Metaburner Pro Title, it will display this image in your Viewer:
+
+![](static/no-project-loaded.png)
+
+As the image explains, so that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the **Browser** to the drop zone at the top of the Inspector:
 
 ![](static/drop-zone.png)
 
@@ -135,20 +139,26 @@ What metadata Final Cut Pro provides when dragging a project/timeline, depends o
 
 ![](static/metadata-view.png)
 
-Final Cut Pro can be a bit temperamental when dragging things from the Browser to the Inspector over the Viewer, so you might have to drag it slowly/carefully for it to work. Sometimes the Inspector will change views, which breaks the workflow, so simply try again.
+> Final Cut Pro can be a bit temperamental when dragging things from the Browser to the Inspector over the Viewer, so you might have to drag it slowly/carefully for it to work. Sometimes the Inspector will change views, which breaks the workflow, so simply try again.
+>
+> We have also noticed that sometimes Final Cut Pro can crash when exporting FCPXMLs, as documented [here](https://github.com/CommandPost/FCPCafe/issues/307). We hope that Apple will address this in a future Final Cut Pro update.
 
-We have also noticed that sometimes Final Cut Pro can crash when exporting FCPXMLs, as documented [here](https://github.com/CommandPost/FCPCafe/issues/307). We hope that Apple will address this in a future Final Cut Pro update.
+After dropping a FCPXML, the status text will change to **Analysing Project**:
 
-You will see a progress alert whilst Metaburner Pro is processing:
+![](static/loading-fcpxml.png)
 
-![](static/loading.png)
+After a short time, if successful, the status should change to **Project Loaded**:
 
-You can **Cancel** it if it's taking a very long time and try again.
+![](static/project-loaded.png)
 
-Once you've successfully imported a project/timeline, you'll get a message like this:
-
-![](static/import-complete.png)
+> Final Cut Pro can be a bit temperamental in terms of updating the status, so you may need to click away from the Metaburner Pro Title and then go back to it for the text to update.
 
 Once done, Metaburner Pro has access to all the metadata within the FCPXML to populate all the Content Sources.
 
 If you make changes to the project/timeline, you'll need to drag the project back again to update the contents of Metaburner Pro.
+
+If Metaburner Pro was unable to import the FCPXML, you'll get an error status, which you can hover over with your mouse to get more detail:
+
+![](static/error-in-inspector.png)
+
+If you do run into an error, it's most likely a bug in Metaburner Pro, so please share your Error Log and FCPXML on GitHub [here](https://github.com/latenitefilms/metaburnerpro/issues).

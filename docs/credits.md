@@ -1,6 +1,6 @@
 # Credits
 
-Metaburner Pro has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite Films](https://latenitefilms.com).
+Metaburner Pro has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite](https://latenitefilms.com).
 
 The Metaburner Pro icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
 
@@ -12,7 +12,7 @@ You can learn more about Chris's creations over at [FCP Cafe](https://fcp.cafe/l
 
 ## FCPXMLKit
 
-We use FCPXMLKit by [David Peterson](https://github.com/randomeizer/).
+We use **FCPXMLKit** by [David Peterson](https://github.com/randomeizer/). This is a private framework.
 
 ---
 
