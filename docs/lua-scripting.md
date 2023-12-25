@@ -20,4 +20,6 @@ You have access to Metaburner Pro's processed data via the `processedData` globa
 
 You can manipulate this data any way you want.
 
+The Lua environment is shared between all instances of the Metaburner Pro plugin, so you can even pass information between different Metaburner Pro Titles!
+
 You can learn more about Lua Scripting on the [CommandPost website](https://commandpost.io/developer/lua-overview/).
