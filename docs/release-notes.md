@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.0 (17)
+
+**🎉 Released:**
+- 31st December 2023
+
+🔨 **Improvements:**
+- You can now drag the text layers position in the Viewer.
+- The position maths has been tweaked, so now a text layer set to a `[0,0]` position will appear in the top-left corner regardless of the Text Alignment.
+- Added a label above each Text Layer in the Inspector. This will automatically populate, however you can override it via the **Custom Label** parameter.
+- The **Load Preset**, **Save Preset** and **Load Template** buttons are now working.
+- Some **Primary Storyline - Inside Container - 1st Audio Clip** parameters are now hooked up for Synchronised Clips.
+
+---
+
 ### 1.0.0 (16)
 
 **🎉 Released:**
