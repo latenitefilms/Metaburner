@@ -14,10 +14,9 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Bugs
 
-**Metaburner Pro v1.0.0 (Build 16) - 25th December 2023**
+**Metaburner Pro v1.0.0 (Build 17) - 31st December 2023**
 
 - When using the **Primary Storyline** Content Source, sometimes the first frame of a clip will display no data. This is a bug and will be fixed in a future TestFlight release.
-- The **Preset** buttons currently don't do anything. This will be added in a future TestFlight release.
 - The **Settings** button in the **Controls** section currently doesn't do anything. This will be added in a future TestFlight release.
 - Some metadata is not "hooked up" yet, so may say "not yet implemented".
 
