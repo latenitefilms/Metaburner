@@ -1,8 +1,10 @@
 # How To Use
 
-Metaburner Pro is currently in **early development**.
+Metaburner Pro is currently in **active development**.
 
 If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/dw7S2veN).
+
+We will be posting regular beta builds to TestFlight as we add new features and functionality.
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
@@ -14,15 +16,7 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 
 ### Known Issues & Bugs
 
-**Metaburner Pro v1.0.0 (Build 17) - 31st December 2023**
-
-- When using the **Primary Storyline** Content Source, sometimes the first frame of a clip will display no data. This is a bug and will be fixed in a future TestFlight release.
-- The **Settings** button in the **Controls** section currently doesn't do anything. This will be added in a future TestFlight release.
-- Some metadata is not "hooked up" yet, so may say "not yet implemented".
-
-Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
-
-Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms/metaburnerpro/issues).
+Please check the [Issues page](https://github.com/latenitefilms/metaburnerpro/issues) for any known bugs or issues.
 
 You can find the full release notes [here](/release-notes/).
 
