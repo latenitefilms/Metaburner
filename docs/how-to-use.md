@@ -8,8 +8,6 @@ We will be posting regular beta builds to TestFlight as we add new features and 
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
 
-Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms/metaburnerpro/issues).
-
 ![](/static/overlay-example.png)
 
 ---
@@ -19,6 +17,26 @@ Found a bug? Post about it on our [Issues page](https://github.com/latenitefilms
 Please check the [Issues page](https://github.com/latenitefilms/metaburnerpro/issues) for any known bugs or issues.
 
 You can find the full release notes [here](/release-notes/).
+
+---
+
+### Final Cut Pro Bug
+
+There is currently a bug in Final Cut Pro 10.7.1, where it incorrectly exports FCPXML `v1.11` when projects have Multicam Clips with individual Audio Role Voice Isolation.
+
+Because Metaburner Pro only accepts valid FCPXML files, if you have a project that has Multicam Clips with individual Audio Role Voice Isolation, it won't import into Metaburner Pro.
+
+You can confirm this is the issue by exporting a FCPXML to your Desktop, then bringing it back it.
+
+If you're hitting this bug you'll see something like this:
+
+![](static/invalid-fcpxml.png)
+
+The workaround is to instead export a FCPXML `v1.10` instead, then use the **Controls > Import Project via FCPXML** to bring it into Metaburner Pro.
+
+You can learn more about the bug on FCP Cafe [here](https://github.com/CommandPost/FCPCafe/issues/314).
+
+We encourage you to also report it to Apple so they can fix it in the next update.
 
 ---
 
@@ -161,3 +179,38 @@ If Metaburner Pro was unable to import the FCPXML, you'll get an error status, w
 ![](static/error-in-inspector.png)
 
 If you do run into an error, it's most likely a bug in Metaburner Pro, so please share your Error Log and FCPXML on GitHub [here](https://github.com/latenitefilms/metaburnerpro/issues).
+
+---
+
+### Custom Metadata Field
+
+When you have the **Custom Metadata Field** selected, you also need to supply a **Custom Field** with the **key** for that metadata field.
+
+For example, if you have the **Extended** Metadata View selected in the **Info Inspector**:
+
+![](static/extended-metadata-inspector.png)
+
+If you then export a FCPXML with the **Extended** Metadata View:
+
+![](static/save-extended-metadata.png)
+
+...and you open that file up in TextEdit, you'll see something like this within the FCPXML:
+
+```
+<metadata>
+    <md key="com.apple.proapps.studio.reel" value="My Reel"/>
+    <md key="com.apple.proapps.studio.scene" value="My Scene"/>
+    <md key="com.apple.proapps.studio.shot" value="My Take"/>
+    <md key="com.apple.proapps.studio.angle" value="My Camera Angle"/>
+</metadata>
+```
+
+You can then use **com.apple.proapps.studio.reel** in the **Custom Field** within the Metaburner Pro Inspector to display the Reel.
+
+Keep in mind that Metaburner Pro only has access to whatever metadata you have visible in the **Info Inspector**, so make sure you select the correct **Metadata View** before dragging your project to Metaburner Pro's Drop Zone.
+
+---
+
+### Lua Scripting
+
+You can learn more [here](/lua-scripting/).
