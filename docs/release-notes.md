@@ -7,7 +7,7 @@
 
 🔨 **Improvements:**
 - Major under-the-hood changes and improvements. It will now be much easier and faster for us to add new metadata fields.
-- Implemented Primary Storyline Frame Rate.
+- Implemented **Frame Rate** for an `asset-clip` on the Primary Storyline. More clip types will be added in a future beta.
 - We now workaround a [bug](https://github.com/CommandPost/FCPCafe/issues/314) in Final Cut Pro 10.7.1 and FCPXML v1.11.
 - We now support a `clip` (as opposed to just `asset-clip`) within a `sync-clip`.
 
