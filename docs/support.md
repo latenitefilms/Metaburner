@@ -1,8 +1,8 @@
 # Support
 
-If you run into any bugs, crashes, or you have a feature request, you can post an issue [here](https://github.com/latenitefilms/metaburnerpro/issues).
+If you run into any bugs, crashes, or you have a feature request, you can post an issue [here](https://github.com/latenitefilms/metaburner/issues).
 
-If you have any general questions or feedback, you can discuss [here](https://github.com/latenitefilms/metaburnerpro/discussions).
+If you have any general questions or feedback, you can discuss [here](https://github.com/latenitefilms/metaburner/discussions).
 
 GitHub registration is free, and this GitHub repository is actively monitored by the developer, [Chris Hocking](https://github.com/latenitefilms).
 

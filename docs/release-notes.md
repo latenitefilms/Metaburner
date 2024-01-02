@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.0 (21)
+
+**🎉 Released:**
+- 3rd January 2024
+
+🔨 **Changes:**
+- We've renamed **Metaburner Pro** to just **Metaburner** for eventual release on FxFactory.
+
+---
+
 ### 1.0.0 (20)
 
 **🎉 Released:**
@@ -66,7 +76,7 @@
 - 25th December 2023
 
 🔨 **Improvements:**
-- We now have a single shared Lua virtual machine, which means you can pass global variables between different Metaburner Pro Titles.
+- We now have a single shared Lua virtual machine, which means you can pass global variables between different Metaburner Titles.
 - Improved how we update the status in the Final Cut Pro Inspector. It should now update more reliably and faster.
 - Updated credits in the main Wrapper application.
 - Added a **Reveal Crash Logs** button in the **Controls** section of the Titles Inspector.
@@ -253,4 +263,4 @@
 **🎉 Released:**
 - 16th December 2023
 
-This is the first release of Metaburner Pro Beta on TestFlight. Woohoo!
+This is the first release of Metaburner Beta on TestFlight. Woohoo!

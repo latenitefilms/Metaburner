@@ -1,12 +1,12 @@
 # How To Use
 
-Metaburner Pro is currently in **active development**. We are aiming to release sometime in January 2024.
+Metaburner is currently in **active development**. We are aiming to release sometime in January 2024.
 
 If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/dw7S2veN).
 
 We will be posting regular beta builds to TestFlight as we add new features and functionality.
 
-Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
+Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburner/discussions)!
 
 ![](/static/overlay-example.png)
 
@@ -14,7 +14,7 @@ Got ideas or questions? Post them on our [Discussions page](https://github.com/l
 
 ### Known Issues & Bugs
 
-Please check the [Issues page](https://github.com/latenitefilms/metaburnerpro/issues) for any known bugs or issues.
+Please check the [Issues page](https://github.com/latenitefilms/metaburner/issues) for any known bugs or issues.
 
 You can find the full release notes [here](/release-notes/).
 
@@ -22,11 +22,11 @@ You can find the full release notes [here](/release-notes/).
 
 ### Final Cut Pro Bug
 
-**UPDATE:** As of Metaburner Pro 1.0.0 (Build 20) we now workaround this issue.
+**UPDATE:** As of Metaburner 1.0.0 (Build 20) we now workaround this issue.
 
 There is currently a bug in Final Cut Pro 10.7.1, where it incorrectly exports FCPXML `v1.11` when projects have Multicam Clips with individual Audio Role Voice Isolation.
 
-Because Metaburner Pro only accepts valid FCPXML files, if you have a project that has Multicam Clips with individual Audio Role Voice Isolation, it won't import into Metaburner Pro.
+Because Metaburner only accepts valid FCPXML files, if you have a project that has Multicam Clips with individual Audio Role Voice Isolation, it won't import into Metaburner.
 
 You can confirm this is the issue by exporting a FCPXML to your Desktop, then bringing it back it.
 
@@ -34,7 +34,7 @@ If you're hitting this bug you'll see something like this:
 
 ![](static/invalid-fcpxml.png)
 
-The workaround is to instead export a FCPXML `v1.10` instead, then use the **Controls > Import Project via FCPXML** to bring it into Metaburner Pro.
+The workaround is to instead export a FCPXML `v1.10` instead, then use the **Controls > Import Project via FCPXML** to bring it into Metaburner.
 
 You can learn more about the bug on FCP Cafe [here](https://github.com/CommandPost/FCPCafe/issues/314).
 
@@ -51,7 +51,7 @@ You can press the **Reveal Log Files** button in the **Controls** section of the
 The log file is located here:
 
 ```
-~/Library/Containers/com.latenitefilms.MetaburnerProRenderer/Data/Library/Application Support/FxPlug.log
+~/Library/Containers/com.latenitefilms.MetaburnerRenderer/Data/Library/Application Support/FxPlug.log
 ```
 
 You can press the **Reveal Crash Logs** button in the **Controls** section of the Inspector to access the `DiagnosticReports` folder in Finder.
@@ -64,7 +64,7 @@ The crash logs are located here:
 ~/Library/Logs/DiagnosticReports
 ```
 
-The crash logs will have file names like `Metaburner Pro Renderer-2023-12-24-103301.ips`. They might also be in the `Retired` sub-folder (these are reports that have already been posted to Apple).
+The crash logs will have file names like `Metaburner Renderer-2023-12-24-103301.ips`. They might also be in the `Retired` sub-folder (these are reports that have already been posted to Apple).
 
 Alternatively, you can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
 
@@ -100,7 +100,7 @@ The button will now be disabled, and will say **Motion Template Installed**. You
 
 ### Accessing in Final Cut Pro
 
-After installing the Motion Template, you can find the Metaburner Pro Title at the top of the Title sidebar in Final Cut Pro:
+After installing the Motion Template, you can find the Metaburner Title at the top of the Title sidebar in Final Cut Pro:
 
 ![](static/title-browser.png)
 
@@ -108,7 +108,7 @@ After installing the Motion Template, you can find the Metaburner Pro Title at t
 
 ### Title Inspector
 
-Simply add the Metaburner Pro Title to the top of your timeline as an adjustment layer.
+Simply add the Metaburner Title to the top of your timeline as an adjustment layer.
 
 It should start at the very start of your timeline.
 
@@ -146,11 +146,11 @@ For example, if you have **Project** selected in the **Content Source**, and **N
 
 You can add a **Prefix** and a **Suffix** to all text fields, regardless of the **Content Source** and **Content Field**.
 
-When you first add the Metaburner Pro Title, it will display this image in your Viewer:
+When you first add the Metaburner Title, it will display this image in your Viewer:
 
 ![](static/no-project-loaded.png)
 
-As the image explains, so that Metaburner Pro can access all the metadata in your project/timeline, you need to drag your project/timeline from the **Browser** to the drop zone at the top of the Inspector:
+As the image explains, so that Metaburner can access all the metadata in your project/timeline, you need to drag your project/timeline from the **Browser** to the drop zone at the top of the Inspector:
 
 ![](static/drop-zone.png)
 
@@ -170,17 +170,17 @@ After a short time, if successful, the status should change to **Project Loaded*
 
 ![](static/project-loaded.png)
 
-> Final Cut Pro can be a bit temperamental in terms of updating the status, so you may need to click away from the Metaburner Pro Title and then go back to it for the text to update.
+> Final Cut Pro can be a bit temperamental in terms of updating the status, so you may need to click away from the Metaburner Title and then go back to it for the text to update.
 
-Once done, Metaburner Pro has access to all the metadata within the FCPXML to populate all the Content Sources.
+Once done, Metaburner has access to all the metadata within the FCPXML to populate all the Content Sources.
 
-If you make changes to the project/timeline, you'll need to drag the project back again to update the contents of Metaburner Pro.
+If you make changes to the project/timeline, you'll need to drag the project back again to update the contents of Metaburner.
 
-If Metaburner Pro was unable to import the FCPXML, you'll get an error status, which you can hover over with your mouse to get more detail:
+If Metaburner was unable to import the FCPXML, you'll get an error status, which you can hover over with your mouse to get more detail:
 
 ![](static/error-in-inspector.png)
 
-If you do run into an error, it's most likely a bug in Metaburner Pro, so please share your Error Log and FCPXML on GitHub [here](https://github.com/latenitefilms/metaburnerpro/issues).
+If you do run into an error, it's most likely a bug in Metaburner, so please share your Error Log and FCPXML on GitHub [here](https://github.com/latenitefilms/metaburner/issues).
 
 ---
 
@@ -207,9 +207,9 @@ If you then export a FCPXML with the **Extended** Metadata View:
 </metadata>
 ```
 
-You can then use **com.apple.proapps.studio.reel** in the **Custom Field** within the Metaburner Pro Inspector to display the Reel.
+You can then use **com.apple.proapps.studio.reel** in the **Custom Field** within the Metaburner Inspector to display the Reel.
 
-Keep in mind that Metaburner Pro only has access to whatever metadata you have visible in the **Info Inspector**, so make sure you select the correct **Metadata View** before dragging your project to Metaburner Pro's Drop Zone.
+Keep in mind that Metaburner only has access to whatever metadata you have visible in the **Info Inspector**, so make sure you select the correct **Metadata View** before dragging your project to Metaburner's Drop Zone.
 
 ---
 

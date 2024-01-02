@@ -1,9 +1,5 @@
 # Frequently Asked Questions
 
-Metaburner Pro is currently in **early development**.
+This page will eventually be populated with frequently asked questions.
 
-We are aiming to release on TestFlight in late 2023.
-
-We'll update this page once we have a TestFlight release.
-
-Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburnerpro/discussions)!
+Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburner/discussions)!
