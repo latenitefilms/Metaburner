@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.0.0 (20)
+
+**🎉 Released:**
+- 3rd January 2024
+
+🔨 **Improvements:**
+- We now include the version and build number in log file filename.
+- Implemented **Frame Rate** for most clip types on the Primary Storyline.
+
+---
+
 ### 1.0.0 (19)
 
 **🎉 Released:**
