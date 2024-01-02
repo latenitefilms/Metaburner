@@ -1,5 +1,18 @@
 # Release Notes
 
+### 1.0.0 (19)
+
+**🎉 Released:**
+- 2nd January 2024
+
+🔨 **Improvements:**
+- Major under-the-hood changes and improvements. It will now be much easier and faster for us to add new metadata fields.
+- Implemented Primary Storyline Frame Rate.
+- We now workaround a [bug](https://github.com/CommandPost/FCPCafe/issues/314) in Final Cut Pro 10.7.1 and FCPXML v1.11.
+- We now support a `clip` (as opposed to just `asset-clip`) within a `sync-clip`.
+
+---
+
 ### 1.0.0 (18)
 
 **🎉 Released:**
