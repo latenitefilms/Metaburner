@@ -8,7 +8,7 @@ We will be posting regular beta builds to TestFlight as we add new features and 
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburner/discussions)!
 
-![](/static/overlay-example.png)
+![](/static/metaburner-pro-screenshot.jpeg)
 
 ---
 
