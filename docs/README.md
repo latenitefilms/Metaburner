@@ -9,7 +9,7 @@
 
 # Metaburner
 
-**Metaburner** is a Metadata Generator for Final Cut Pro.
+**Metaburner** is an Advanced Metadata Generator for Final Cut Pro.
 
 > Metaburner is currently being publicly beta tested on Apple's TestFlight.
 >
