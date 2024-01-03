@@ -1,8 +1,8 @@
 # How To Use
 
-Metaburner is currently in **active development**. We are aiming to release sometime in January 2024.
+**Metaburner** is currently in **active development**. We are aiming to release before the end of January 2024.
 
-**UPDATE:** _We've renamed Metaburner Pro to Metaburner, so as of 3rd January, there's a new TestFlight link below._
+> **UPDATE:** _We've renamed Metaburner Pro to Metaburner in Build 21, so as of 3rd January, there's a new TestFlight link below:_
 
 If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/BIll53h2).
 
@@ -22,38 +22,16 @@ You can find the full release notes [here](/release-notes/).
 
 ---
 
-### Final Cut Pro Bug
-
-**UPDATE:** _As of Metaburner 1.0.0 (Build 20) we now workaround this issue._
-
-There is currently a bug in Final Cut Pro 10.7.1, where it incorrectly exports FCPXML `v1.11` when projects have Multicam Clips with individual Audio Role Voice Isolation.
-
-Because Metaburner only accepts valid FCPXML files, if you have a project that has Multicam Clips with individual Audio Role Voice Isolation, it won't import into Metaburner.
-
-You can confirm this is the issue by exporting a FCPXML to your Desktop, then bringing it back it.
-
-If you're hitting this bug you'll see something like this:
-
-![](static/invalid-fcpxml.png)
-
-The workaround is to instead export a FCPXML `v1.10` instead, then use the **Controls > Import Project via FCPXML** to bring it into Metaburner.
-
-You can learn more about the bug on FCP Cafe [here](https://github.com/CommandPost/FCPCafe/issues/314).
-
-We encourage you to also report it to Apple so they can fix it in the next update.
-
----
-
 ### Error Logs
 
 You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the `FxPlug.log` file in Finder:
 
 ![](static/reveal-log-files.png)
 
-The log file is located here:
+The log file is located in this folder with the name of the current version and build:
 
 ```
-~/Library/Containers/com.latenitefilms.MetaburnerRenderer/Data/Library/Application Support/FxPlug.log
+~/Library/Containers/com.latenitefilms.MetaburnerRenderer/Data/Library/Application Support/Metaburner Renderer - 1.0.0 (22).log
 ```
 
 You can press the **Reveal Crash Logs** button in the **Controls** section of the Inspector to access the `DiagnosticReports` folder in Finder.
@@ -218,3 +196,25 @@ Keep in mind that Metaburner only has access to whatever metadata you have visib
 ### Lua Scripting
 
 You can learn more [here](/lua-scripting/).
+
+---
+
+### Final Cut Pro Bug
+
+> **UPDATE:** _As of Metaburner 1.0.0 (Build 20) we now workaround this issue._
+
+There is currently a bug in Final Cut Pro 10.7.1, where it incorrectly exports FCPXML `v1.11` when projects have Multicam Clips with individual Audio Role Voice Isolation.
+
+Because Metaburner only accepts valid FCPXML files, if you have a project that has Multicam Clips with individual Audio Role Voice Isolation, it won't import into Metaburner.
+
+You can confirm this is the issue by exporting a FCPXML to your Desktop, then bringing it back it.
+
+If you're hitting this bug you'll see something like this:
+
+![](static/invalid-fcpxml.png)
+
+The workaround is to instead export a FCPXML `v1.10` instead, then use the **Controls > Import Project via FCPXML** to bring it into Metaburner.
+
+You can learn more about the bug on FCP Cafe [here](https://github.com/CommandPost/FCPCafe/issues/314).
+
+We encourage you to also report it to Apple so they can fix it in the next update.
