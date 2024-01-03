@@ -1,5 +1,20 @@
 # Release Notes
 
+### 1.0.0 (22)
+
+**🎉 Released:**
+- 3rd January 2024
+
+🔨 **Improvements:**
+- Improved error messages when FCPXML processing fails.
+- Updated the default Motion Template.
+- **Primary Storyline - Rotation** has been implemented.
+- **Primary Storyline - Opacity** now works on Multicam Clips.
+- **Primary Storyline - Scale** now works on Multicam Clips.
+- Our FCPXML processor (`FCPXMLKit`) has been updated and improved.
+
+---
+
 ### 1.0.0 (21)
 
 **🎉 Released:**
