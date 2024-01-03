@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.0 (23)
+
+**🎉 Released:**
+- 4th January 2024
+
+🔨 **Improvements:**
+- **Primary Storyline - Rotation** now displays in degrees rather than percentages.
+
+---
+
 ### 1.0.0 (22)
 
 **🎉 Released:**
