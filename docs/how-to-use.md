@@ -24,7 +24,7 @@ You can find the full release notes [here](/release-notes/).
 
 ### Error Logs
 
-You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the `FxPlug.log` file in Finder:
+You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the, for example, `Metaburner Renderer - 1.0.0 (22).log` file in Finder:
 
 ![](static/reveal-log-files.png)
 
