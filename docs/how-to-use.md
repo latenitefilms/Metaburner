@@ -2,7 +2,9 @@
 
 Metaburner is currently in **active development**. We are aiming to release sometime in January 2024.
 
-If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/dw7S2veN).
+**UPDATE:** _We've renamed Metaburner Pro to Metaburner, so as of 3rd January, there's a new TestFlight link below._
+
+If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/BIll53h2).
 
 We will be posting regular beta builds to TestFlight as we add new features and functionality.
 
@@ -22,7 +24,7 @@ You can find the full release notes [here](/release-notes/).
 
 ### Final Cut Pro Bug
 
-**UPDATE:** As of Metaburner 1.0.0 (Build 20) we now workaround this issue.
+**UPDATE:** _As of Metaburner 1.0.0 (Build 20) we now workaround this issue._
 
 There is currently a bug in Final Cut Pro 10.7.1, where it incorrectly exports FCPXML `v1.11` when projects have Multicam Clips with individual Audio Role Voice Isolation.
 
