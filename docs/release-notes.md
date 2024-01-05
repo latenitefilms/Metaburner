@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.0 (24)
+
+**🎉 Released:**
+- 5th January 2024
+
+🔨 **Improvements:**
+- **Primary Storyline - Video Effects (Horizontal/Vertical)** has been implemented.
+- **Primary Storyline - Audio Effects (Horizontal/Vertical)** has been implemented.
+- The main Wrapper application now installs the latest Motion Template if sandbox access has already been granted.
+- Our FCPXML processor (`FCPXMLKit`) has been updated and improved.
+- Updated the default Motion Template.
+
+---
+
 ### 1.0.0 (23)
 
 **🎉 Released:**
