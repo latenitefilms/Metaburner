@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.0 (26)
+
+**🎉 Released:**
+- 9th January 2024
+
+🔨 **Changes:**
+- Removed the App Sandbox so that it hopefully plays nicely with FxFactory.
+
+---
+
 ### 1.0.0 (25)
 
 **🎉 Released:**
