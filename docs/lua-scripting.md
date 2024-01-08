@@ -6,7 +6,13 @@ Simply use the **Lua** Content Source, then use the **Custom Field** to type you
 
 Anything you write to the `result` global variable will be displayed in Metaburner.
 
-For example:
+For example, to display the current date and time you could do:
+
+```lua
+result = os.date("%Y-%m-%d %H:%M", os.time())
+```
+
+You can also do maths:
 
 ![](/static/lua-scripting.png)
 
@@ -23,3 +29,5 @@ You can manipulate this data any way you want.
 The Lua environment is shared between all instances of the Metaburner plugin, so you can even pass information between different Metaburner Titles!
 
 You can learn more about Lua Scripting on the [CommandPost website](https://commandpost.io/developer/lua-overview/).
+
+[ChatGPT](https://chat.openai.com) is also great at generating Lua scripts.

@@ -1,5 +1,30 @@
 # Release Notes
 
+### 1.0.0 (25)
+
+**🎉 Released:**
+- 8th January 2024
+
+🔨 **Changes:**
+- This release is destined for FxFactory. We will no longer be posting builds to Apple's TestFlight.
+- We've added a watermark to the image when in Trial Mode. You will be able to purchase the full version on FxFactory soon.
+- We've removed the **Install Motion Template** button, as this will now be handled by FxFactory.
+
+🔨 **Improvements:**
+- Added an **Empty** built-in preset.
+- Added a **Load Empty Preset** button in the **Presets** section.
+- **Primary Storyline - Position** has been implemented.
+- We now cache our Processed Data to dramatically improve Final Cut Pro's performance on big and complex projects.
+- We now only read the FCPXML Data if Lua is used on a Text Layer (for a slight speed improvement).
+
+🐞 **Bug Fixes:**
+- Fixed a bug where the first frame of a clip could display incorrect metadata.
+- Fixed a bug where the first frame of a keyframe could display incorrect metadata.
+- Fixed a bug in Primary Storyline Timecode Format metadata.
+- Removed a rogue space in Effects Lists.
+
+---
+
 ### 1.0.0 (24)
 
 **🎉 Released:**
