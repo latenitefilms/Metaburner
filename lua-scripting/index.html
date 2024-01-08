@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.757755723118">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.758020709587">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.757755723118" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.758020709587" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.757755723118" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.758020709587" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.757755723118" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.758020709587" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.5.0.758020709587" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -292,7 +293,11 @@
 <p>An incredible powerful feature of Metaburner is the ability to code your own Lua scripts.</p>
 <p>Simply use the <strong>Lua</strong> Content Source, then use the <strong>Custom Field</strong> to type your code.</p>
 <p>Anything you write to the <code v-pre>result</code> global variable will be displayed in Metaburner.</p>
-<p>For example:</p>
+<p>For example, to display the current date and time you could do:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">result = os.date(&quot;%Y-%m-%d %H:%M&quot;, os.time())</code></pre>
+</doc-codeblock></div>
+<p>You can also do maths:</p>
 <p><figure class="content-center">
     <img src="../static/lua-scripting.png" alt="">
     <figcaption class="caption"></figcaption>
@@ -313,6 +318,7 @@
 <p>You can manipulate this data any way you want.</p>
 <p>The Lua environment is shared between all instances of the Metaburner plugin, so you can even pass information between different Metaburner Titles!</p>
 <p>You can learn more about Lua Scripting on the <a href="https://commandpost.io/developer/lua-overview/">CommandPost website</a>.</p>
+<p><a href="https://chat.openai.com">ChatGPT</a> is also great at generating Lua scripts.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -379,6 +385,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Lua Scripting", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Lua Scripting", level: 1, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
