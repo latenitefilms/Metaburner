@@ -1,3 +1,3 @@
 # Uninstall
 
-To uninstall Metaburner, simply drag the application to the trash/bin.
+To uninstall **Metaburner**, hold down the **OPTION** key when hovering over the **OPEN** button in FxFactory.

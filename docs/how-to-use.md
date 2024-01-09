@@ -1,16 +1,34 @@
 # How To Use
 
-**Metaburner** is currently in **active development**. We are aiming to release before the end of January 2024.
+**Metaburner** is currently in a **public beta testing phase**.
 
-> **UPDATE:** _We've renamed Metaburner Pro to Metaburner in Build 21, so as of 3rd January, there's a new TestFlight link below:_
+We are actively developing it based on [user feedback](https://github.com/latenitefilms/metaburner/issues).
 
-If you're interested in helping with development, you can sign up to **TestFlight** (Apple's beta-testing service) for free [here](https://testflight.apple.com/join/BIll53h2).
+You can download and install a watermarked version for free on [FxFactory](https://fxfactory.com).
 
-We will be posting regular beta builds to TestFlight as we add new features and functionality.
+!!!success Download Now!
+If you already have FxFactory installed, [click here](fxfactory://app/store?product=metaburner&show) to download **Metaburner**.
+
+You can download FxFactory [here](https://fxfactory.com/download/).
+!!!
+
+We hope to finish public beta testing by the end of January 2024.
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburner/discussions)!
 
 ![](/static/metaburner-pro-screenshot.jpeg)
+
+---
+
+### Installing
+
+Simply search for **Metaburner** in [FxFactory](https://fxfactory.com) and click **DOWNLOAD TRIAL**.
+
+If you already have FxFactory installed, [click here](fxfactory://app/store?product=metaburner&show) to download Metaburner.
+
+You can download FxFactory [here](https://fxfactory.com/download/).
+
+![](static/fxfactory.png)
 
 ---
 
@@ -19,62 +37,6 @@ Got ideas or questions? Post them on our [Discussions page](https://github.com/l
 Please check the [Issues page](https://github.com/latenitefilms/metaburner/issues) for any known bugs or issues.
 
 You can find the full release notes [here](/release-notes/).
-
----
-
-### Error Logs
-
-You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the, for example, `Metaburner Renderer - 1.0.0 (22).log` file in Finder:
-
-![](static/reveal-log-files.png)
-
-The log file is located in this folder with the name of the current version and build:
-
-```
-~/Library/Containers/com.latenitefilms.MetaburnerRenderer/Data/Library/Application Support/Metaburner Renderer - 1.0.0 (22).log
-```
-
-You can press the **Reveal Crash Logs** button in the **Controls** section of the Inspector to access the `DiagnosticReports` folder in Finder.
-
-![](static/reveal-log-files.png)
-
-The crash logs are located here:
-
-```
-~/Library/Logs/DiagnosticReports
-```
-
-The crash logs will have file names like `Metaburner Renderer-2023-12-24-103301.ips`. They might also be in the `Retired` sub-folder (these are reports that have already been posted to Apple).
-
-Alternatively, you can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
-
-![](static/finder-library.png)
-
-You can also copy the above paths, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup.
-
----
-
-### Installing
-
-If it's the first time installing the software, or if there's been an update to the Motion Template, you'll be prompted to **Install Motion Template**.
-
-![](static/install-01.png)
-
-Once you click the button, you'll be prompted to grant permission to your **Movies** folder. This is due to macOS's sandboxing, and you'll only need to do this once. Click **OK**.
-
-![](static/install-02.png)
-
-You then need to click **Grant Access**:
-
-![](static/install-03.png)
-
-Once done, you'll be presented with a successful message:
-
-![](static/install-04.png)
-
-The button will now be disabled, and will say **Motion Template Installed**. You can now close the Gyroflow Toolbox application.
-
-![](static/install-05.png)
 
 ---
 
@@ -199,22 +161,32 @@ You can learn more [here](/lua-scripting/).
 
 ---
 
-### Final Cut Pro Bug
+### Error Logs
 
-> **UPDATE:** _As of Metaburner 1.0.0 (Build 20) we now workaround this issue._
+You can press the **Reveal Log Files** button in the **Controls** section of the Inspector to access the, for example, `Metaburner Renderer - 1.0.0 (22).log` file in Finder:
 
-There is currently a bug in Final Cut Pro 10.7.1, where it incorrectly exports FCPXML `v1.11` when projects have Multicam Clips with individual Audio Role Voice Isolation.
+![](static/reveal-log-files.png)
 
-Because Metaburner only accepts valid FCPXML files, if you have a project that has Multicam Clips with individual Audio Role Voice Isolation, it won't import into Metaburner.
+The log file is located in this folder with the name of the current version and build:
 
-You can confirm this is the issue by exporting a FCPXML to your Desktop, then bringing it back it.
+```
+/Users/YOUR-USER-NAME/Library/Application Support/Metaburner/Logs/Metaburner Renderer - 1.0.0 (27).log
+```
 
-If you're hitting this bug you'll see something like this:
+You can press the **Reveal Crash Logs** button in the **Controls** section of the Inspector to access the `DiagnosticReports` folder in Finder.
 
-![](static/invalid-fcpxml.png)
+![](static/reveal-log-files.png)
 
-The workaround is to instead export a FCPXML `v1.10` instead, then use the **Controls > Import Project via FCPXML** to bring it into Metaburner.
+The crash logs are located here:
 
-You can learn more about the bug on FCP Cafe [here](https://github.com/CommandPost/FCPCafe/issues/314).
+```
+~/Library/Logs/DiagnosticReports
+```
 
-We encourage you to also report it to Apple so they can fix it in the next update.
+The crash logs will have file names like `Metaburner Renderer-2023-12-24-103301.ips`. They might also be in the `Retired` sub-folder (these are reports that have already been posted to Apple).
+
+Alternatively, you can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
+
+![](static/finder-library.png)
+
+You can also copy the above paths, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup.

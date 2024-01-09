@@ -16,11 +16,19 @@ You can also do maths:
 
 ![](/static/lua-scripting.png)
 
-You have access to the full FCPXML via the `fcpxmlData` global variable, which is stored as a `string`:
+Each instance of Metaburner has it's own `uniqueIdentifier`. You can find this by using this Lua code:
+
+```lua
+result = uniqueIdentifier
+```
+
+You can use this `uniqueIdentifier` to access the FCPXML and Processed Data.
+
+You have access to the full FCPXML via the `fcpxmlData_uniqueIdentifier` global variable, which is stored as a `string`:
 
 ![](/static/lua-fcpxml.png)
 
-You have access to Metaburner's processed data via the `processedData` global variable, which is stored as a `table`:
+You have access to Metaburner's processed data via the `processedData_uniqueIdentifier` global variable, which is stored as a `table`:
 
 ![](/static/lua-processed-data.png)
 
