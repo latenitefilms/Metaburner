@@ -11,9 +11,7 @@ You can download and install a watermarked version for free on [FxFactory](https
 If you want to remove the watermark during the beta period, you can purchase Metaburner [here](https://fxfactory.com/info/metaburner/?action=buy).
 
 !!!success Download Now!
-If you already have FxFactory installed, [click here](fxfactory://app/store?product=metaburner&show) to download Metaburner.
-
-You can download FxFactory [here](https://fxfactory.com/download/).
+You can download Metaburner via FxFactory [here](https://fxfactory.com/install/metaburner).
 !!!
 
 We hope to finish public beta testing by the end of January 2024.

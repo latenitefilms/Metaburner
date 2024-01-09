@@ -7,9 +7,7 @@ We are actively developing it based on [user feedback](https://github.com/lateni
 You can download and install a watermarked version for free on [FxFactory](https://fxfactory.com).
 
 !!!success Download Now!
-If you already have FxFactory installed, [click here](fxfactory://app/store?product=metaburner&show) to download **Metaburner**.
 
-You can download FxFactory [here](https://fxfactory.com/download/).
 !!!
 
 We hope to finish public beta testing by the end of January 2024.
@@ -22,11 +20,9 @@ Got ideas or questions? Post them on our [Discussions page](https://github.com/l
 
 ### Installing
 
-Simply search for **Metaburner** in [FxFactory](https://fxfactory.com) and click **DOWNLOAD TRIAL**.
+You can download Metaburner via FxFactory [here](https://fxfactory.com/install/metaburner).
 
-If you already have FxFactory installed, [click here](fxfactory://app/store?product=metaburner&show) to download Metaburner.
-
-You can download FxFactory [here](https://fxfactory.com/download/).
+Alternatively, simply search for **Metaburner** in [FxFactory](https://fxfactory.com) and click **DOWNLOAD TRIAL**.
 
 ![](static/fxfactory.png)
 

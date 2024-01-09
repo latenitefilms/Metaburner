@@ -12,9 +12,7 @@
 **Metaburner** is an Advanced Metadata Generator for Final Cut Pro.
 
 !!!success Download Now!
-If you already have FxFactory installed, [click here](fxfactory://app/store?product=metaburner&show) to download **Metaburner**.
-
-You can download FxFactory [here](https://fxfactory.com/download/).
+You can download Metaburner via FxFactory [here](https://fxfactory.com/install/metaburner).
 !!!
 
 You can access it via a **Title** in the Titles sidebar.
