@@ -1,5 +1,22 @@
 # Release Notes
 
+### 1.0.0 (28)
+
+**🎉 Released:**
+- 11th January 2024
+
+🔨 **Improvements:**
+- If the current clip is an `asset-clip` we now "pass through" the clip metadata to the **Primary Storyline - Inside Container** Content Sources for convenience. Thanks for suggesting Robin Moran!
+- If you used the **Import Project via FCPXML** button, there's now a **Reload Project** buttons within the **Controls** section to refresh that existing FCPXML. Thanks for suggesting Knut Hake & Sam Pluemacher!
+- Added metadata fields for Keywords & Markers on the Primary Storyline.
+- Added metadata fields for Video and Audio Roles on the Primary Storyline.
+- Added a **Filter by Video Role** and **Filter by Audio Role** option under **Global Settings** to allow you to only show a specific role. Thanks for suggesting Knut Hake & Sam Pluemacher!
+
+🐞 **Bug Fixes:**
+- Fixed a bug where you couldn't import FCPXML's via the **Import Project via FCPXML** button if they contained a Library > Event.
+
+---
+
 ### 1.0.0 (27)
 
 **🎉 Released:**
