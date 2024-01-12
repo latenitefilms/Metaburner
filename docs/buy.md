@@ -1,12 +1,12 @@
 # Buy on FxFactory
 
+> **Metaburner** is currently in a **public beta testing phase**.
+>
+> We are actively developing it based on [user feedback](https://github.com/latenitefilms/metaburner/issues).
+
 **Metaburner** is a one-time payment of **USD$149** on [FxFactory](https://fxfactory.com/info/metaburner/?action=buy).
 
-**Metaburner** is currently a **public beta testing phase**.
-
-We are actively developing it based on [user feedback](https://github.com/latenitefilms/metaburner/issues).
-
-You can download and install a watermarked version for free on [FxFactory](https://fxfactory.com).
+You can also download and install a watermarked version for **free** on [FxFactory](https://fxfactory.com/info/metaburner/?action=buy).
 
 If you want to remove the watermark during the beta period, you can purchase Metaburner [here](https://fxfactory.com/info/metaburner/?action=buy).
 
