@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.0.1 (29)
+
+**🎉 Released:**
+- 13th January 2024
+
+🐞 **Bug Fixes:**
+- Fixed a bug when using the **Marker + Notes** Content Field where markers would not be visible if they contained no note. Thanks for reporting Sam Pluemacher!
+- Fixed a bug when using the **Marker + Notes** Content Field where the text layer would incorrectly end with a comma.
+- Fixed bugs in **Scale**, **Position**, **Rotation** and **Opacity** Content Fields, where we weren't taking into account the timeline start timecode. Thanks for reporting Sam Pluemacher!
+
+---
+
 ### 1.0.0 (28)
 
 **🎉 Released:**
