@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.3 (31)
+
+**🎉 Released:**
+- 18th January 2024
+
+🔨 **Improvements:**
+- Added a `NSUpdateSecurityPolicy` to allow FxFactory to more seamlessly handle automatic unattended updates.
+
+🐞 **Bug Fixes:**
+- Fixed a regression which could cause Metaburner to silently crash when processing a clip with Captions or Live Drawings. Thanks for reporting Sam Pluemacher!
+- Fixed a bug where Metaburner could be stuck on "Analyzing Project" infinitely. Thanks for reporting Sam Pluemacher!
+
+---
+
 ### 1.0.2 (30)
 
 **🎉 Released:**
