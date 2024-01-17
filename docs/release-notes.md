@@ -1,5 +1,24 @@
 # Release Notes
 
+### 1.0.2 (30)
+
+**🎉 Released:**
+- 18th January 2024
+
+🔨 **Improvements:**
+- Moved **Filter by Video/Audio Role** from Global Settings to individual Text Layers. These role filters now take into account all lanes. Thanks for suggesting Knut Hake & Sam Pluemacher!
+- Added Content Field for **Audio Roles & Subroles**.
+- Hooked up Above & Below Primary Storyline Content Sources.
+- Added **Spatial Conform** Content Field.
+- The status text now animates when analysing. Thanks [Daniel Saidi](https://github.com/danielsaidi)!
+- If the current clip is an `clip` we now "pass through" the clip metadata to the **Primary Storyline - Inside Container** Content Sources for convenience. Thanks for suggesting Matthieu Laclau!
+
+
+🐞 **Bug Fixes:**
+- Fixed a regression which broke the Markers & Keywords Content Fields in some cases. Thanks for reporting Sam Pluemacher!
+
+---
+
 ### 1.0.1 (29)
 
 **🎉 Released:**
