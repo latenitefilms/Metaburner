@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.758414756137">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.758787719153">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.758414756137" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.758787719153" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.758414756137" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.758787719153" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.758414756137" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.758787719153" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -288,6 +288,7 @@
     </h1>
 </doc-anchor-target>
 <p><strong>Metaburner</strong> has been thrown together by <a href="https://github.com/latenitefilms">Chris Hocking</a> at <a href="https://latenitefilms.com">LateNite</a>.</p>
+<p>The FCPXML Processing Engine used under-the-hood was created by <a href="https://github.com/randomeizer/">David Peterson</a>.</p>
 <p>The <strong>Metaburner</strong> icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
 <p>Chris also created <a href="https://commandpost.io">CommandPost</a>, <a href="https://transfertoolbox.io">Transfer Toolbox</a>, <a href="https://brawtoolbox.io">BRAW Toolbox</a>, <a href="https://markertoolbox.io">Marker Toolbox</a> and <a href="https://gyroflowtoolbox.io">Gyroflow Toolbox</a>.</p>
 <p>You can learn more about Chris&#x27;s creations over at <a href="https://fcp.cafe/latenite/">FCP Cafe</a>.</p>
@@ -298,7 +299,8 @@
         <span>FCPXMLKit</span>
     </h2>
 </doc-anchor-target>
-<p>We use <strong>FCPXMLKit</strong> by <a href="https://github.com/randomeizer/">David Peterson</a>. This is a private framework.</p>
+<p>We use <strong>FCPXMLKit</strong> by <a href="https://github.com/randomeizer/">David Peterson</a> to handle FCPXML processing.</p>
+<p>This is a private framework.</p>
 <hr>
 <doc-anchor-target id="timecodekit">
     <h2>
@@ -306,7 +308,9 @@
         <span>TimecodeKit</span>
     </h2>
 </doc-anchor-target>
-<p>We use <a href="https://github.com/orchetect/TimecodeKit">TimecodeKit</a> by <a href="https://github.com/orchetect">Steffan Andrews</a>.</p>
+<p>We use <a href="https://github.com/orchetect/TimecodeKit">TimecodeKit</a> by <a href="https://github.com/orchetect">Steffan Andrews</a> for do timecode calculations.</p>
+<p>Released under a MIT license:</p>
+<blockquote>
 <p>MIT License</p>
 <p>Copyright (c) 2018 Steffan Andrews - <a href="https://github.com/orchetect">https://github.com/orchetect</a></p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -324,6 +328,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</p>
+</blockquote>
 <hr>
 <doc-anchor-target id="lua4swift">
     <h2>
@@ -331,12 +336,42 @@ SOFTWARE.</p>
         <span>lua4swift</span>
     </h2>
 </doc-anchor-target>
-<p>We use <a href="https://github.com/kos-pomfort/lua4swift">lua4swift</a> by <a href="https://github.com/SwiftyLua">Steven Degutis</a> and improvements by <a href="https://github.com/kos-pomfort">Konstantin Silbermann</a>.</p>
-<p>Released under MIT license.</p>
+<p>We use <a href="https://github.com/kos-pomfort/lua4swift">lua4swift</a> by <a href="https://github.com/SwiftyLua">Steven Degutis</a> and improvements by <a href="https://github.com/kos-pomfort">Konstantin Silbermann</a> as our Lua Engine.</p>
+<p>Released under a MIT license:</p>
+<blockquote>
 <p>Copyright (c) 2015 Steven Degutis</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</blockquote>
+<hr>
+<doc-anchor-target id="swiftuikit">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#swiftuikit">#</doc-anchor-trigger>
+        <span>SwiftUIKit</span>
+    </h2>
+</doc-anchor-target>
+<p>We use <a href="https://github.com/danielsaidi/SwiftUIKit">SwiftUIKit</a> by <a href="https://github.com/danielsaidi">Daniel Saidi</a> for our progress text animations.</p>
+<p>Released under a MIT license:</p>
+<blockquote>
+<p>MIT License</p>
+<p>Copyright (c) 2020-2024 Daniel Saidi</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+</blockquote>
 <hr>
 <doc-anchor-target id="numberkit">
     <h2>
@@ -344,12 +379,14 @@ SOFTWARE.</p>
         <span>NumberKit</span>
     </h2>
 </doc-anchor-target>
-<p>We use a <strong>NumberKit</strong> fork by <a href="https://github.com/randomeizer/swift-numberkit">David Peterson</a>.</p>
+<p>We use a <strong>NumberKit</strong> fork by <a href="https://github.com/randomeizer/swift-numberkit">David Peterson</a> within FCPXMLKit.</p>
 <p>This has been adapted from <a href="https://github.com/objecthub/swift-numberkit">Swift NumberKit</a> by <a href="https://github.com/objecthub">Matthias Zenger</a>.</p>
+<p>Released under a Apache License:</p>
+<blockquote>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">                            Apache License
-                       Version 2.0, January 2004
-                    http://www.apache.org/licenses/</code></pre>
+<pre class="language-none"><code v-pre class="language-none">                           Apache License
+                      Version 2.0, January 2004
+                   http://www.apache.org/licenses/</code></pre>
 </doc-codeblock></div>
 <p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
 <ol>
@@ -511,27 +548,28 @@ of your accepting any such warranty or additional liability.</p>
 <p>END OF TERMS AND CONDITIONS</p>
 <p>APPENDIX: How to apply the Apache License to your work.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">  To apply the Apache License to your work, attach the following
-  boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
-  replaced with your own identifying information. (Don't include
-  the brackets!)  The text should be enclosed in the appropriate
-  comment syntax for the file format. We also recommend that a
-  file or class name and description of purpose be included on the
-  same &quot;printed page&quot; as the copyright notice for easier
-  identification within third-party archives.</code></pre>
+<pre class="language-none"><code v-pre class="language-none"> To apply the Apache License to your work, attach the following
+ boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
+ replaced with your own identifying information. (Don't include
+ the brackets!)  The text should be enclosed in the appropriate
+ comment syntax for the file format. We also recommend that a
+ file or class name and description of purpose be included on the
+ same &quot;printed page&quot; as the copyright notice for easier
+ identification within third-party archives.</code></pre>
 </doc-codeblock></div>
 <p>Copyright 2016-2023 Matthias Zenger</p>
 <p>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">   http://www.apache.org/licenses/LICENSE-2.0</code></pre>
+<pre class="language-none"><code v-pre class="language-none">  http://www.apache.org/licenses/LICENSE-2.0</code></pre>
 </doc-codeblock></div>
 <p>Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.</p>
+</blockquote>
 <hr>
 <doc-anchor-target id="quick">
     <h2>
@@ -540,6 +578,7 @@ limitations under the License.</p>
     </h2>
 </doc-anchor-target>
 <p>We use <a href="https://github.com/Quick/Quick">Quick</a> for Unit Testing FCPXMLKit.</p>
+<blockquote>
 <p>Apache License
 Version 2.0, January 2004
 <a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a></p>
@@ -703,27 +742,28 @@ of your accepting any such warranty or additional liability.</p>
 <p>END OF TERMS AND CONDITIONS</p>
 <p>APPENDIX: How to apply the Apache License to your work.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">  To apply the Apache License to your work, attach the following
-  boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
-  replaced with your own identifying information. (Don't include
-  the brackets!)  The text should be enclosed in the appropriate
-  comment syntax for the file format. We also recommend that a
-  file or class name and description of purpose be included on the
-  same &quot;printed page&quot; as the copyright notice for easier
-  identification within third-party archives.</code></pre>
+<pre class="language-none"><code v-pre class="language-none"> To apply the Apache License to your work, attach the following
+ boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
+ replaced with your own identifying information. (Don't include
+ the brackets!)  The text should be enclosed in the appropriate
+ comment syntax for the file format. We also recommend that a
+ file or class name and description of purpose be included on the
+ same &quot;printed page&quot; as the copyright notice for easier
+ identification within third-party archives.</code></pre>
 </doc-codeblock></div>
 <p>Copyright 2014, Quick Team</p>
 <p>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">   http://www.apache.org/licenses/LICENSE-2.0</code></pre>
+<pre class="language-none"><code v-pre class="language-none">  http://www.apache.org/licenses/LICENSE-2.0</code></pre>
 </doc-codeblock></div>
 <p>Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.</p>
+</blockquote>
 <hr>
 <doc-anchor-target id="nimble">
     <h2>
@@ -732,6 +772,7 @@ limitations under the License.</p>
     </h2>
 </doc-anchor-target>
 <p>We use <a href="https://github.com/Quick/Nimble">Nimble</a> for Unit Testing FCPXMLKit.</p>
+<blockquote>
 <p>Apache License
 Version 2.0, January 2004
 <a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a></p>
@@ -895,27 +936,28 @@ of your accepting any such warranty or additional liability.</p>
 <p>END OF TERMS AND CONDITIONS</p>
 <p>APPENDIX: How to apply the Apache License to your work.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">  To apply the Apache License to your work, attach the following
-  boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
-  replaced with your own identifying information. (Don't include
-  the brackets!)  The text should be enclosed in the appropriate
-  comment syntax for the file format. We also recommend that a
-  file or class name and description of purpose be included on the
-  same &quot;printed page&quot; as the copyright notice for easier
-  identification within third-party archives.</code></pre>
+<pre class="language-none"><code v-pre class="language-none"> To apply the Apache License to your work, attach the following
+ boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
+ replaced with your own identifying information. (Don't include
+ the brackets!)  The text should be enclosed in the appropriate
+ comment syntax for the file format. We also recommend that a
+ file or class name and description of purpose be included on the
+ same &quot;printed page&quot; as the copyright notice for easier
+ identification within third-party archives.</code></pre>
 </doc-codeblock></div>
 <p>Copyright 2016 Quick Team</p>
 <p>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">   http://www.apache.org/licenses/LICENSE-2.0</code></pre>
+<pre class="language-none"><code v-pre class="language-none">  http://www.apache.org/licenses/LICENSE-2.0</code></pre>
 </doc-codeblock></div>
 <p>Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.</p>
+</blockquote>
 <hr>
 <doc-anchor-target id="resourcehelper">
     <h2>
