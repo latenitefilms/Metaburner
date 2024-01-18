@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.4 (32)
+
+**🎉 Released:**
+- 19th January 2024
+
+🔨 **Improvements:**
+- If you're working inside a Compound Clip (as opposed to a Project), you can now apply Metaburner within that Compound Clip, and drag the Compound Clip from the Final Cut Pro Browser to the Metaburner Drop Zone. Thanks for suggesting Sam Pluemacher!
+
+---
+
 ### 1.0.3 (31)
 
 **🎉 Released:**
