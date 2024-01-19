@@ -25,6 +25,6 @@ To begin, simply drag your Final Cut Pro Project from the Browser into the Metab
 
 There's also a **Lua scripting environment** built-in, so you can even "code" your own text for unlimited possibilities.
 
-You can even share Lua variables between multiple Metaburner titles for some crazy possibilities!
+You can even share Lua variables between multiple Metaburner titles for some crazy cool workflows!
 
 ![](/static/metaburner-pro-screenshot.jpeg)

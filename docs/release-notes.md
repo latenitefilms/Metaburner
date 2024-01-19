@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.0.5 (33)
+
+**🎉 Released:**
+- 20th January 2024
+
+🔨 **Improvements:**
+- Added a Global Setting for **Empty Data**. This allows you to customise what gets displayed when no metadata exists for that Content Field. Thanks for suggesting Sam Pluemacher!
+- Added seperate content fields for Markers with Marker Type. Thanks for suggesting Sam Pluemacher!
+- Added Stabilisation Content Fields. Thanks for suggesting Matthieu Laclau!
+
+---
+
 ### 1.0.4 (32)
 
 **🎉 Released:**
