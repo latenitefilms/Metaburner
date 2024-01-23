@@ -2,15 +2,35 @@
 
 **Metaburner** has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite](https://latenitefilms.com).
 
-**HUGE THANK YOU** to [David Peterson](https://github.com/randomeizer/), [Bradley Andrew](https://filmdrives.com), Rob Keniger, [Warren Moore](https://metalbyexample.com), Sam Pluemacher, Matthieu Laclau and Knut Hake for all their on-going help and support!
-
-The FCPXML Processing Engine used under-the-hood was created by [David Peterson](https://github.com/randomeizer/).
-
-The **Metaburner** icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
-
 Chris also created [CommandPost](https://commandpost.io), [Transfer Toolbox](https://transfertoolbox.io), [BRAW Toolbox](https://brawtoolbox.io), [Marker Toolbox](https://markertoolbox.io) and [Gyroflow Toolbox](https://gyroflowtoolbox.io).
 
 You can learn more about Chris's creations over at [FCP Cafe](https://fcp.cafe/latenite/).
+
+---
+
+## Icon Design
+
+The **Metaburner** icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
+
+---
+
+## FCPXML Processing
+
+The FCPXML Processing Engine used under-the-hood was created by [David Peterson](https://github.com/randomeizer/).
+
+---
+
+## Special Thanks
+
+**HUGE THANK YOU** to my coding partner-in-crime [David Peterson](https://github.com/randomeizer/) for FCPXMLKit and your constant genius!
+
+**HUGE THANK YOU** to [Bradley Andrew](https://filmdrives.com), Rob Keniger, [Warren Moore](https://metalbyexample.com) for all their help and support!
+
+**HUGE THANK YOU** to Gabriele de Simone and Niclas Bahn at FxFactory for all their help and support!
+
+**HUGE THANK YOU** to Darrin Cardani, Tim Dashwood, Jim Grandy & Bill Davis at Apple for all their help and support!
+
+**HUGE THANK YOU** to Sam Pluemacher, Matthieu Laclau and Knut Hake for all their beta testing!
 
 ---
 

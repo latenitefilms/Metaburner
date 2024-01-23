@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.7 (35)
+
+**🎉 Released:**
+- 24th January 2024
+
+🐞 **Bug Fix:**
+- Fixed a bug which caused the Final Cut Pro Inspector to appear "red" when using a Metaburner Title, even if the Title was disabled. This only affected Intel machines, not Apple Silicon. This was due to Metaburner's on-screen controls (that allow you to drag Text Layers in the Viewer). The red overlay disappeared on Intel if you disabled the on-screen controls in Apple Motion. Thanks for reporting Matthieu Laclau! Thanks Darrin Cardani and Gabriele de Simone for your problem solving genius!
+
+---
+
 ### 1.0.6 (34)
 
 **🎉 Released:**
