@@ -2,6 +2,8 @@
 
 **Metaburner** has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite](https://latenitefilms.com).
 
+**HUGE THANK YOU** to [David Peterson](https://github.com/randomeizer/), [Bradley Andrew](https://filmdrives.com), Rob Keniger, [Warren Moore](https://metalbyexample.com), Sam Pluemacher, Matthieu Laclau and Knut Hake for all their on-going help and support!
+
 The FCPXML Processing Engine used under-the-hood was created by [David Peterson](https://github.com/randomeizer/).
 
 The **Metaburner** icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
