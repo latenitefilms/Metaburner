@@ -20,7 +20,7 @@
 - Added a checkbox to **Save FCPXML Internally** within the **Controls** section. This is off by default. You'll only ever really need to turn it on if you want to access the FCPXML data via the Lua Scripting Engine.
 
 🐞 **Bug Fixes:**
-- Metaburner now correctly renders when in Half Resolution in Apple Motion and **Better Performance** in Final Cut Pro.
+- Metaburner now correctly renders when in **Half Resolution** in Apple Motion and **Better Performance** in Final Cut Pro.
 - Final Cut Pro now allows you to copy and paste the Metaburner Title. Thanks for reporting Sam Pluemacher!
 
 ---
