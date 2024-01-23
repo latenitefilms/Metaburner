@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759323681127">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759328139559">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.759323681127" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.759328139559" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.759323681127" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.759328139559" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.759323681127" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.759328139559" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -287,6 +287,38 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="106-34">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#106-34">#</doc-anchor-trigger>
+        <span>1.0.6 (34)</span>
+    </h3>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>23rd January 2024</li>
+</ul>
+<p><span class="docs-emoji">&#x1F528;</span> <strong>Changes:</strong></p>
+<ul>
+<li>Metaburner Presets now have the file extension <code v-pre>metaburnerPreset</code> (instead of <code v-pre>mbpPreset</code>).</li>
+<li>The Metaburner Motion Template has been updated.</li>
+</ul>
+<p><span class="docs-emoji">&#x1F528;</span> <strong>Improvements:</strong></p>
+<ul>
+<li>Lots of big under-the-hood improvements. Metaburner now can handle very complicated and long feature film timelines without dropping frames. Thanks for reporting Sam Pluemacher!</li>
+<li>Added a new <strong>Open in Motion</strong> button to <strong>Controls</strong>. This allows you to easily create a new Apple Motion Template which you can customise however you want!</li>
+<li>We&#x27;ve moved the <strong>Open User Guide</strong> to the top of <strong>Controls</strong> so that it&#x27;s more obvious.</li>
+<li>We no longer display &quot;Text Layer 1&quot;, &quot;Text Layer 2&quot;, etc in the Final Cut Pro Inspector to make it cleaner.</li>
+<li>We now save and restore <strong>Empty Data</strong>, <strong>Filter by Video Role</strong> and <strong>Filter by Audio Role</strong> in Presets.</li>
+<li>We&#x27;ve added a built-in <strong>Stabilisation</strong> Preset.</li>
+<li>Improved the error messaging when a FCPXML fails to load.</li>
+<li>Added a checkbox to <strong>Save FCPXML Internally</strong> within the <strong>Controls</strong> section. This is off by default. You&#x27;ll only ever really need to turn it on if you want to access the FCPXML data via the Lua Scripting Engine.</li>
+</ul>
+<p><span class="docs-emoji">&#x1F41E;</span> <strong>Bug Fixes:</strong></p>
+<ul>
+<li>Metaburner now correctly renders when in Half Resolution in Apple Motion and <strong>Better Performance</strong> in Final Cut Pro.</li>
+<li>Final Cut Pro now allows you to copy and paste the Metaburner Title. Thanks for reporting Sam Pluemacher!</li>
+</ul>
+<hr>
 <doc-anchor-target id="105-33">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#105-33">#</doc-anchor-trigger>
