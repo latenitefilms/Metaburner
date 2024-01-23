@@ -52,6 +52,8 @@ You can use this `uniqueIdentifier` to access the FCPXML and Processed Data.
 
 You have access to the full FCPXML via the `fcpxmlData_uniqueIdentifier` global variable, which is stored as a `string`.
 
+However, you'll need to make sure that **Save FCPXML Internally** is ticked in the **Controls** section in the Inspector PRIOR to importing a FCPXML.
+
 For example:
 
 ```lua
