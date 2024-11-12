@@ -27,4 +27,4 @@ There's also a **Lua scripting environment** built-in, so you can even "code" yo
 
 You can even share Lua variables between multiple Metaburner titles for some crazy cool workflows!
 
-![](/static/metaburner-pro-screenshot.jpeg)
+![](/static/metaburner-v1-1-0.png)

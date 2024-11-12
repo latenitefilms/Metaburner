@@ -4,7 +4,13 @@ Metaburner is a powerful tool for burning in metadata in Final Cut Pro.
 
 Got ideas or questions? Post them on our [Discussions page](https://github.com/latenitefilms/metaburner/discussions)!
 
-![](/static/metaburner-pro-screenshot.jpeg)
+![](/static/metaburner-v1-1-0.png)
+
+---
+
+!!!danger
+Some of this documentation hasn't yet been updated for **Metaburner v1.1.0**.
+!!!
 
 ---
 
