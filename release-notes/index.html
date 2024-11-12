@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759366309343">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.784754093031">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.5.0">
+    <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Release Notes</title>
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.759366309343" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.784754093031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.759366309343" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.759366309343" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.784754093031" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.784754093031" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -287,6 +287,39 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="110-51">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#110-51">#</doc-anchor-trigger>
+        <span>1.1.0 (51)</span>
+    </h3>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>12th November 2024</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F195;</span> Important Changes</strong></p>
+<ul>
+<li>This is a major update to Metaburner, and is not backwards compatible with previous releases.</li>
+<li>If you were previously using Metaburner, you&#x27;ll need to delete any existing Metaburner titles and re-apply them.</li>
+<li>We have done major under-the-hood improvements to how we get the source timecode from clips.</li>
+<li>The <strong>Audio Role</strong> text field is currently not hooked up.</li>
+</ul>
+<p><span class="docs-emoji">&#x1F528;</span> <strong>Improvements:</strong></p>
+<ul>
+<li>Renamed <strong>Content Source</strong> to <strong>Metadata Source</strong>.</li>
+<li>Renamed <strong>Content Field</strong> to <strong>Metadata Property</strong>.</li>
+<li>Renamed <strong>Custom Field</strong> to <strong>Custom Metadata&quot;</strong>.</li>
+<li>Changed order of parameters in the Inspector.</li>
+<li>Added a dedicated <strong>Lua Script</strong> text field.</li>
+<li>Added support for <strong>Stabilisation</strong> metadata.</li>
+<li>Added <strong>Video - Source Frame Count</strong> Metadata Property.</li>
+<li><strong>Filter by Video/Audio Role</strong> now only works with complete Role names.</li>
+<li>Rather than aborting if we hit invalid timecode, we now just log an error and allow the invalid timecode.</li>
+<li>Added <strong>Duration on Timeline (Frames)</strong> Metadata Property.</li>
+<li>We now get the Source Start Timecode, Source Duration &amp; Source Frame Rate from the source clip, instead of the parent clip on the timeline.</li>
+<li>Various other under-the-hood speed improvements, bug fixes and improvements.</li>
+</ul>
+<hr>
 <doc-anchor-target id="107-35">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#107-35">#</doc-anchor-trigger>
