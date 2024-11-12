@@ -1,5 +1,32 @@
 # Release Notes
 
+### 1.1.0 (51)
+
+**🎉 Released:**
+- 12th November 2024
+
+**🆕 Important Changes**
+- This is a major update to Metaburner, and is not backwards compatible with previous releases.
+- If you were previously using Metaburner, you'll need to delete any existing Metaburner titles and re-apply them.
+- We have done major under-the-hood improvements to how we get the source timecode from clips.
+- The **Audio Role** text field is currently not hooked up.
+
+🔨 **Improvements:**
+- Renamed **Content Source** to **Metadata Source**.
+- Renamed **Content Field** to **Metadata Property**.
+- Renamed **Custom Field** to **Custom Metadata"**.
+- Changed order of parameters in the Inspector.
+- Added a dedicated **Lua Script** text field.
+- Added support for **Stabilisation** metadata.
+- Added **Video - Source Frame Count** Metadata Property.
+- **Filter by Video/Audio Role** now only works with complete Role names.
+- Rather than aborting if we hit invalid timecode, we now just log an error and allow the invalid timecode.
+- Added **Duration on Timeline (Frames)** Metadata Property.
+- We now get the Source Start Timecode, Source Duration & Source Frame Rate from the source clip, instead of the parent clip on the timeline.
+- Various other under-the-hood speed improvements, bug fixes and improvements.
+
+---
+
 ### 1.0.7 (35)
 
 **🎉 Released:**
