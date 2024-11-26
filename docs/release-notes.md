@@ -1,6 +1,26 @@
 # Release Notes
 
-### 1.1.0 (51)
+### 1.1.2 (52)
+
+**🎉 Released:**
+- 26th November 2024
+
+🔨 **Improvements:**
+- Fixes a crash when dealing with unsupported fonts. Thanks for reporting Joseph Nilo!
+
+---
+
+### 1.1.1 (51)
+
+**🎉 Released:**
+- 15th November 2024
+
+🔨 **Improvements:**
+- Added support for Final Cut Pro 11 and FCPXML v1.13.
+
+---
+
+### 1.1.0 (50)
 
 **🎉 Released:**
 - 12th November 2024
