@@ -21,7 +21,7 @@ FxFactory has a number of benefits for us:
 - FxFactory has a number of technologies built into their software platform to make sure Motion Templates are updated correctly
 - The FxFactory team are super smart and super lovely - you have direct contact with their developers/engineers
 
-However, we've since added it to the Mac App Store too - for best of both worlds! 🥳
+However, we've since added it to the [Mac App Store](https://apps.apple.com/app/metaburner/id6475315396) too - for best of both worlds! 🥳
 
 ---
 

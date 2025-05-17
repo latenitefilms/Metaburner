@@ -22,6 +22,8 @@ Alternatively, simply search for **Metaburner** in [FxFactory](https://fxfactory
 
 ![](static/fxfactory.png)
 
+You can also buy from the [Apple Mac App Store](https://apps.apple.com/app/metaburner/id6475315396).
+
 ---
 
 ### Known Issues & Bugs

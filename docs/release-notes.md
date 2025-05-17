@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.2.0 (54)
+
+**🎉 Released:**
+- 16th May 2025
+
+**🆕 Important Changes**
+- This is the first release of Metaburner on the Mac App Store. Woohoo! 🥳
+- The functionality is the same as `v1.1.2` on FxFactory.
+
+---
+
 ### 1.1.2 (52)
 
 **🎉 Released:**

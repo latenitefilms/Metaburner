@@ -14,6 +14,11 @@ links:
   link: /buy/
   icon: desktop-download
 
+- text: Buy on Mac App Store
+  link: https://apps.apple.com/app/metaburner/id6475315396
+  icon: desktop-download
+  target: blank
+
 - text: Issues
   link: https://github.com/latenitefilms/metaburner/issues
   icon: issue-opened
