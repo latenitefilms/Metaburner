@@ -1,4 +1,4 @@
-# Buy on FxFactory
+# Buy
 
 **Metaburner** is a one-time payment of **USD$149** on [FxFactory](https://fxfactory.com/info/metaburner/?action=buy).
 
