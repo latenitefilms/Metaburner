@@ -1,11 +1,10 @@
 input: .
 output: .retype
 
-url: metaburner.pro # Add your website address here
+url: metaburner.fcp.cafe
 
 branding:
   title: Metaburner
-  #label: Docs
   logo: static/logo.png
 
 links:
@@ -40,7 +39,7 @@ links:
   target: blank
 
 - text: LateNite
-  link: https://latenitefilms.com
+  link: https://fcp.cafe/latenite/
   icon: light-bulb
   target: blank
 
