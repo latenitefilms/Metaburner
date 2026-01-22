@@ -1,6 +1,6 @@
 # Release Notes
 
-### 1.2.1 (55)
+### 1.2.1 (56)
 
 **🎉 Released:**
 - 22nd January 2026
