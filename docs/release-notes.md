@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.2.1 (55)
+
+**🎉 Released:**
+- 22nd January 2026
+
+🔨 **Improvements:**
+- Updated the Metaburner application icon for macOS 26 Tahoe. Thanks [Matthew Skiles](https://matthewskiles.com)!
+- Updated the Metaburner website URL in the application and on the Mac App Store.
+
+---
+
 ### 1.2.0 (54)
 
 **🎉 Released:**
